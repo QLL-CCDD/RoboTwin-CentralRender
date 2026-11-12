@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*credentials*
+*password*
+*.pem
+*.key
+models/
+site/
+sdk-site/
+policy-env/
+RoboTwin/
+policy-runtime/RoboTwin/
+closed-loop/
+!evidence/**/closed-loop/
+new-results/

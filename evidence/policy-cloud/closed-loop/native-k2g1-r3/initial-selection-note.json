@@ -1,0 +1,6 @@
+{
+  "status": "excluded_from_comparison",
+  "reason": "Supervisor requested no additional runs; warm-repeat launch was stopped or had already ended before this instruction was processed.",
+  "completed_before_stop": true,
+  "steps": 234
+}

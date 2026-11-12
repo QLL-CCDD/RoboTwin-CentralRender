@@ -1,0 +1,16 @@
+{
+  "export_date": "2026-11-13",
+  "source": "RoboTwin-CentralRender-20261111",
+  "overlay_order": [
+    "stage3 bundle",
+    "latest closed-loop bundle"
+  ],
+  "redactions": [],
+  "notes": [
+    "Timestamp directory colons are replaced with hyphens for Windows-compatible checkout.",
+    "Original bundle manifests describe their original bundles, not this merged export.",
+    "The 565 MB RGB-expanded native log is replaced by the existing result-summary.json.",
+    "Weights, full meshes and environments remain on the cloud host; pinned retrieval scripts and manifests are included.",
+    "Historical stage3-result.json predates the completed Policy closed loop. Use POLICY_CLOSED_LOOP.md for current conclusions."
+  ]
+}

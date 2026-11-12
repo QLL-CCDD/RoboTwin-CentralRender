@@ -1,0 +1,10 @@
+{"timestamp_unix_s": 1794458386.8713512, "monotonic_s": 27872729.999204967, "field": "checkpoint_prepare_s", "event": "start"}
+{"timestamp_unix_s": 1794458386.8715098, "monotonic_s": 27872729.99936309, "field": "checkpoint_prepare_s", "event": "finish"}
+{"timestamp_unix_s": 1794458386.8730023, "monotonic_s": 27872730.0008554, "field": "autotune_s", "event": "start"}
+{"timestamp_unix_s": 1794458386.873722, "monotonic_s": 27872730.00157549, "field": "autotune_s", "event": "finish"}
+{"timestamp_unix_s": 1794458386.889539, "monotonic_s": 27872730.017392255, "field": "policy_load_s", "event": "start"}
+{"timestamp_unix_s": 1794458398.0292668, "monotonic_s": 27872741.157120347, "field": "policy_load_s", "event": "finish"}
+{"timestamp_unix_s": 1794458398.030867, "monotonic_s": 27872741.158720694, "field": "runtime_prepare_s", "event": "start"}
+{"timestamp_unix_s": 1794458398.233228, "monotonic_s": 27872741.361082107, "field": "runtime_prepare_s", "event": "finish"}
+{"timestamp_unix_s": 1794458398.233985, "monotonic_s": 27872741.36183877, "field": "evaluation_s", "event": "start"}
+{"timestamp_unix_s": 1794458415.0634074, "monotonic_s": 27872758.191260785, "field": "evaluation_s", "event": "finish"}

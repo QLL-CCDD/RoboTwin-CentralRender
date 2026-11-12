@@ -1,0 +1,26 @@
+[
+  {
+    "path": "assets/objects/objaverse/list.json",
+    "bytes": 22531,
+    "sha256": "9c33b70f6e91788033d6cc3e1d58fe0ad09ced472679440083b31513f9c4bc6f",
+    "archive_member": "objects/objaverse/list.json",
+    "compressed_bytes": 5283,
+    "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+  },
+  {
+    "path": "assets/objects/same.json",
+    "bytes": 5865,
+    "sha256": "3bcaa1618ff9d0b50478dd22183f77ca3557d9d5406442b17e39337e68cb5edd",
+    "archive_member": "objects/same.json",
+    "compressed_bytes": 1447,
+    "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+  },
+  {
+    "path": "assets/embodiments/aloha-agilex/srdf/arx5_description_isaac.srdf",
+    "bytes": 26322,
+    "sha256": "ee5669f617d1d4806998da3ab890bc487d0eba06692f4b5498ac3d5c5fccff66",
+    "archive_member": "embodiments/aloha-agilex/srdf/arx5_description_isaac.srdf",
+    "compressed_bytes": 2471,
+    "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+  }
+]

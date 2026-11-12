@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/experiment_subset.py", line 173, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/experiment_subset.py", line 146, in main
+    code = cli.main(kit_args)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/cli.py", line 182, in main
+    return _run_evaluation(
+           ^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/cli.py", line 295, in _run_evaluation
+    output = run_candidate(
+             ^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/cli.py", line 570, in run_candidate
+    ).run(phase_timing_callback=phase_timing_callback)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 153, in run
+    return self.run_workers(progress_callback, phase_timing_callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 278, in run_workers
+    self._wait_workers_ready(events_path, total_records, probe_deadline)
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 460, in _wait_workers_ready
+    self._check_processes(events_path, total_records)
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 517, in _check_processes
+    self._handle_worker_exit(worker_id, managed, events_path)
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 813, in _handle_worker_exit
+    raise RuntimeError(
+RuntimeError: benchmark worker 0 repeatedly exited with 1; failure_kind=ProcessFailureKind.OTHER; requeued 0 items
+Original worker error from the final attempt:
+/root/autodl-tmp/roboscope-central-render-20261111/policy-env/bin/python: Error while finding module specification for 'roboscope_kit.runtime.benchmarks.robotwin.worker' (ModuleNotFoundError: No module named 'roboscope_kit')
+CLOSED_LOOP_ARM {"mode": "native", "command": ["/root/autodl-tmp/roboscope-central-render-20261111/policy-env/bin/python", "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/experiment_subset.py", "--phase-log", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r1/phases.jsonl", "--benchmark", "robotwin", "--suite", "demo_clean", "--checkpoint-source", "/root/autodl-tmp/roboscope-central-render-20261111/models/starvla-robotwin-native", "--benchmark-manifest", "/root/autodl-tmp/roboscope-central-render-20261111/policy-runtime/experiment-manifest.json", "--policy-config", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop-policy.json", "--output-dir", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r1/sdk", "--subset-task-count", "1", "--subset-episodes", "2", "--episode-shard-size", "1", "--concurrency", "2", "--replicas", "1"], "started_epoch_s": 1794458260.6108022, "started_perf_s": 27872603.738655627, "returncode": 1, "finished_epoch_s": 1794458304.6772096, "total_wall_s": 44.06640877574682, "ready": [], "episodes": []}

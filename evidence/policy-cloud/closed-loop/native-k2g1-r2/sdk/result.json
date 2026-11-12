@@ -1,0 +1,197 @@
+{
+  "sdk_version": 1,
+  "runtime": {
+    "output_dir": "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r2/sdk",
+    "gpu_devices": [
+      "0"
+    ],
+    "replicas": 1,
+    "concurrency": 2,
+    "base_port": 16694,
+    "ready_timeout_s": 300.0,
+    "poll_interval_s": 0.2,
+    "probe_limits": null,
+    "shard_index": null,
+    "shard_count": null,
+    "shard_episodes": 500,
+    "shard_build": null,
+    "profile": false
+  },
+  "phase_timings": {
+    "policy_load_s": 11.139696128666401,
+    "runtime_prepare_s": 0.20230814442038536,
+    "evaluation_s": 16.829424891620874
+  },
+  "item_timeline": {
+    "completion_s": {
+      "demo_clean-adjust_bottle-episodes-0000-0001": 16.626867201179266,
+      "demo_clean-adjust_bottle-episodes-0001-0002": 16.828343581408262
+    },
+    "worker_id": {
+      "demo_clean-adjust_bottle-episodes-0000-0001": 0,
+      "demo_clean-adjust_bottle-episodes-0001-0002": 1
+    }
+  },
+  "record_success": {
+    "demo_clean-adjust_bottle-episode-0000": true,
+    "demo_clean-adjust_bottle-episode-0001": true
+  },
+  "inference": {
+    "adapter": "PolicyProcessAdapter",
+    "benchmark": "robotwin",
+    "suite": "demo_clean",
+    "checkpoint_path": "/root/autodl-tmp/roboscope-central-render-20261111/models/starvla-robotwin-native",
+    "load_timeout_s": 300.0,
+    "replica_vram_bytes": {
+      "0": 10295967744
+    },
+    "replicas": {
+      "0": {
+        "supported_benchmarks": [
+          "robotwin"
+        ],
+        "required_features": [
+          "images.head",
+          "images.left_wrist",
+          "images.right_wrist",
+          "language.instruction"
+        ],
+        "supported_suites": {
+          "robotwin": [
+            "demo_clean"
+          ]
+        },
+        "max_batch_size": 1,
+        "supported_action_chunk_sizes": [
+          16
+        ],
+        "action_representations": {
+          "robotwin": "robotwin.qpos-v1"
+        },
+        "observation_strides": {
+          "robotwin": 16
+        },
+        "step_observation_updates": []
+      }
+    },
+    "execution_contract": {
+      "benchmark": "robotwin",
+      "action_representation": "robotwin.qpos-v1",
+      "action_representation_source": "policy",
+      "observation_stride": 16,
+      "observation_stride_source": "policy",
+      "step_observation_updates": false
+    }
+  },
+  "policy_io": {
+    "benchmark": "robotwin",
+    "action_representation": "robotwin.qpos-v1",
+    "action_representation_source": "policy",
+    "observation_stride": 16,
+    "observation_stride_source": "policy",
+    "step_observation_updates": false
+  },
+  "benchmark": {
+    "adapter": "ResearchSubsetAdapter",
+    "benchmark": "robotwin",
+    "suite": "demo_clean",
+    "protocol": "robotwin2-v1",
+    "bound_hint": "gpu_infer",
+    "tasks": [
+      "adjust_bottle"
+    ],
+    "episodes_per_task": 2,
+    "episode_shard_size": 1,
+    "seed": 0,
+    "video_logging": false,
+    "benchmark_protocol_id": "robotwin2-native-step-lim-v2",
+    "seed_generation_digest": "7b6622f7e8dc2272b53ea30bb5fef9acede91a6d5270b5487c10232a4250781d",
+    "research_subset": {
+      "name": "demo_clean-frozen-prefix-1x2",
+      "full_official_evaluation": false,
+      "complete_generation_validated": true,
+      "tasks": [
+        "adjust_bottle"
+      ],
+      "task_indices": [
+        0
+      ],
+      "cache_episode_indices": [
+        0,
+        1
+      ],
+      "expected_episodes": 2,
+      "instruction_seed_limit": 2,
+      "episode_shard_size": 1,
+      "seed_generation_digest": "7b6622f7e8dc2272b53ea30bb5fef9acede91a6d5270b5487c10232a4250781d",
+      "benchmark_protocol_id": "robotwin2-native-step-lim-v2",
+      "original_launcher": "/root/autodl-tmp/roboscope-central-render-20261111/native_entry.py",
+      "instrumented_timing": false
+    },
+    "full_official_evaluation": false
+  },
+  "result": {
+    "state": "complete",
+    "episodes": 2,
+    "successes": 2,
+    "failures": 0,
+    "total_steps": 234,
+    "total_episodes": 2,
+    "success_rate": 1.0,
+    "completed_items": 2,
+    "elapsed_s": 18.197829872369766,
+    "steps_per_s": 12.858676097158607,
+    "episodes_per_s": 0.10990321450562913
+  },
+  "official_result": {
+    "tasks": [
+      {
+        "task": "adjust_bottle",
+        "episodes": 2,
+        "successes": 2,
+        "success_rate": 1.0
+      }
+    ]
+  },
+  "resources": {
+    "elapsed_s": 18.197829872369766,
+    "cpu": {
+      "cpu_cores": 1.885912839096722,
+      "throttle_time_ratio": 0.0,
+      "throttle_period_ratio": 0.0
+    },
+    "gpu": {
+      "mean_utilization": 0.1028125,
+      "peak_memory_bytes": 17519607808.0,
+      "gpu_util_avg": {
+        "0": 10.28125
+      },
+      "gpu_util_max": {
+        "0": 62.0
+      },
+      "gpu_mem_mib_max": {
+        "0": 16708.0
+      }
+    },
+    "gpu_samples": 32
+  },
+  "recovery": {
+    "worker_failures": [],
+    "planned_recycles": 0,
+    "oom_events": 0,
+    "initial_workers_per_gpu": {
+      "0": 2
+    },
+    "final_workers_per_gpu": {
+      "0": 2
+    }
+  },
+  "autotune": {
+    "k": 2,
+    "g": 1,
+    "mode": "fixed"
+  },
+  "cuda_mps": {
+    "enabled": false
+  }
+}

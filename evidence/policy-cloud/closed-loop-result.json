@@ -1,0 +1,297 @@
+{
+  "status": "complete",
+  "configuration": {
+    "task": "adjust_bottle",
+    "suite": "demo_clean",
+    "robot": "aloha-agilex",
+    "action": "qpos",
+    "K": 2,
+    "G": 1,
+    "episodes_per_arm": 2,
+    "action_horizon": 16,
+    "observation_stride": 16,
+    "cameras": 4,
+    "resolution": [
+      320,
+      240
+    ],
+    "shader": "rt",
+    "spp": 32,
+    "path_depth": 8,
+    "denoiser": "oidn",
+    "mps": false
+  },
+  "formal_boundary": "Both workers have their first real observations and wait before first real Policy step; release to last completed episode end.",
+  "total_boundary": "Before CLI or render-service startup to command/service teardown, including fresh model loading and first-frame preparation.",
+  "native": {
+    "mode": "native",
+    "path": "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r2",
+    "completed_episodes": 2,
+    "successes": 2,
+    "episodes": [
+      {
+        "episode_index": 0,
+        "seed": 1000000,
+        "steps": 110,
+        "step_lim": 400,
+        "success": true,
+        "termination": "success"
+      },
+      {
+        "episode_index": 1,
+        "seed": 1000001,
+        "steps": 124,
+        "step_lim": 400,
+        "success": true,
+        "termination": "success"
+      }
+    ],
+    "total_steps": 234,
+    "formal_wall_s": 6.831209547817707,
+    "steps_per_s": 34.25454868014603,
+    "formal_start": "2026-11-12T12:40:08.159+08:00",
+    "formal_end": "2026-11-12T12:40:14.990+08:00",
+    "total_wall_s": 29.53847037255764,
+    "total_start": "2026-11-12T12:39:46.755+08:00",
+    "total_end": "2026-11-12T12:40:16.294+08:00",
+    "sdk_evaluation_wall_s": 16.829424891620874,
+    "sdk_evaluation_start": "2026-11-12T12:39:58.233+08:00",
+    "sdk_evaluation_end": "2026-11-12T12:40:15.063+08:00",
+    "policy_load_s": 11.139696128666401,
+    "mps_enabled": false,
+    "simulator_pids": [
+      21502,
+      21503
+    ],
+    "policy_pids": [
+      21437
+    ],
+    "actual_K": 2,
+    "actual_G": 1,
+    "render_service_pid": null,
+    "gpu_pids": [
+      21437,
+      21502,
+      21503
+    ],
+    "graphics_pids": [
+      21502,
+      21503
+    ],
+    "gpu_ownership_verified": true,
+    "actual_model_inference_calls": 15,
+    "first_model_inference_s": 1.9707660488784313,
+    "total_model_inference_s": 2.7974731102585793,
+    "subsequent_model_inference_mean_s": 0.05905050438429628,
+    "subsequent_model_inference_total_s": 0.8267070613801479,
+    "model_inference_durations_s": [
+      1.9707660488784313,
+      0.10913332551717758,
+      0.07875464111566544,
+      0.05908146873116493,
+      0.05461553856730461,
+      0.04782614856958389,
+      0.04798964783549309,
+      0.04720659554004669,
+      0.047420136630535126,
+      0.047000523656606674,
+      0.05991721898317337,
+      0.047037601470947266,
+      0.05883946269750595,
+      0.060089968144893646,
+      0.06179478392004967
+    ],
+    "observations": 17,
+    "rgb_images": 68,
+    "formal_vram_mean_mib": 16611.14285714286,
+    "formal_vram_peak_mib": 16708.0,
+    "overall_vram_peak_mib": 16708.0,
+    "formal_resource_samples": 14
+  },
+  "central": {
+    "mode": "central",
+    "path": "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r3",
+    "completed_episodes": 2,
+    "successes": 2,
+    "episodes": [
+      {
+        "episode_index": 0,
+        "seed": 1000000,
+        "steps": 110,
+        "step_lim": 400,
+        "success": true,
+        "termination": "success"
+      },
+      {
+        "episode_index": 1,
+        "seed": 1000001,
+        "steps": 124,
+        "step_lim": 400,
+        "success": true,
+        "termination": "success"
+      }
+    ],
+    "total_steps": 234,
+    "formal_wall_s": 5.658803533762693,
+    "steps_per_s": 41.35149746830086,
+    "formal_start": "2026-11-12T12:47:47.794+08:00",
+    "formal_end": "2026-11-12T12:47:53.453+08:00",
+    "total_wall_s": 29.63190158456564,
+    "total_start": "2026-11-12T12:47:25.575+08:00",
+    "total_end": "2026-11-12T12:47:55.207+08:00",
+    "sdk_evaluation_wall_s": 11.019895080477,
+    "sdk_evaluation_start": "2026-11-12T12:47:42.548+08:00",
+    "sdk_evaluation_end": "2026-11-12T12:47:53.568+08:00",
+    "policy_load_s": 11.018539354205132,
+    "mps_enabled": false,
+    "simulator_pids": [
+      23581,
+      23582
+    ],
+    "policy_pids": [
+      23517
+    ],
+    "actual_K": 2,
+    "actual_G": 1,
+    "render_service_pid": 23322,
+    "gpu_pids": [
+      23322,
+      23517
+    ],
+    "graphics_pids": [
+      23322
+    ],
+    "gpu_ownership_verified": true,
+    "actual_model_inference_calls": 15,
+    "first_model_inference_s": 0.5464499928057194,
+    "total_model_inference_s": 1.44198003038764,
+    "subsequent_model_inference_mean_s": 0.06396643125585147,
+    "subsequent_model_inference_total_s": 0.8955300375819206,
+    "model_inference_durations_s": [
+      0.5464499928057194,
+      0.06639210507273674,
+      0.05693363398313522,
+      0.053221445530653,
+      0.08685294911265373,
+      0.06871910393238068,
+      0.07376736402511597,
+      0.04953257367014885,
+      0.09871158376336098,
+      0.07876446098089218,
+      0.048672061413526535,
+      0.06157281994819641,
+      0.052281420677900314,
+      0.05098497122526169,
+      0.04912354424595833
+    ],
+    "observations": 17,
+    "rgb_images": 68,
+    "formal_vram_mean_mib": 13927.09090909091,
+    "formal_vram_peak_mib": 13956.0,
+    "overall_vram_peak_mib": 13956.0,
+    "formal_resource_samples": 11
+  },
+  "formal_throughput_gain": 0.20718266804280594,
+  "formal_wall_reduction": 0.1716249524843737,
+  "total_wall_reduction": -0.003163034877215587,
+  "same_step_count": true,
+  "action_sequences_identical": true,
+  "first_inference_difference_s": 1.424316056072712,
+  "formal_wall_difference_s": 1.1724060140550137,
+  "rendering_causal_attribution_established": false,
+  "timing_caveat": "The native first inference took longer than central by more than the entire formal wall-time difference; the raw throughput difference cannot be attributed wholly to rendering.",
+  "scope": "One small two-episode pair; no statistical or 50-task success-rate improvement claim.",
+  "completed_run_order": [
+    "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r2",
+    "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r3",
+    "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r3"
+  ],
+  "native_sensitivity": {
+    "mode": "native",
+    "path": "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/native-k2g1-r3",
+    "completed_episodes": 2,
+    "successes": 2,
+    "episodes": [
+      {
+        "episode_index": 0,
+        "seed": 1000000,
+        "steps": 110,
+        "step_lim": 400,
+        "success": true,
+        "termination": "success"
+      },
+      {
+        "episode_index": 1,
+        "seed": 1000001,
+        "steps": 124,
+        "step_lim": 400,
+        "success": true,
+        "termination": "success"
+      }
+    ],
+    "total_steps": 234,
+    "formal_wall_s": 6.031630117446184,
+    "steps_per_s": 38.79548238927431,
+    "formal_start": "2026-11-12T12:51:09.873+08:00",
+    "formal_end": "2026-11-12T12:51:15.905+08:00",
+    "total_wall_s": 28.61366618052125,
+    "total_start": "2026-11-12T12:50:48.650+08:00",
+    "total_end": "2026-11-12T12:51:17.263+08:00",
+    "sdk_evaluation_wall_s": 15.626380480825901,
+    "sdk_evaluation_start": "2026-11-12T12:51:00.297+08:00",
+    "sdk_evaluation_end": "2026-11-12T12:51:15.923+08:00",
+    "policy_load_s": 11.308012168854475,
+    "mps_enabled": false,
+    "simulator_pids": [
+      24003,
+      24004
+    ],
+    "policy_pids": [
+      23935
+    ],
+    "actual_K": 2,
+    "actual_G": 1,
+    "render_service_pid": null,
+    "gpu_pids": [
+      23935,
+      24003,
+      24004
+    ],
+    "graphics_pids": [
+      24003,
+      24004
+    ],
+    "gpu_ownership_verified": true,
+    "actual_model_inference_calls": 15,
+    "first_model_inference_s": 0.6289845928549767,
+    "total_model_inference_s": 1.5157376416027546,
+    "subsequent_model_inference_mean_s": 0.06333950348198414,
+    "subsequent_model_inference_total_s": 0.8867530487477779,
+    "model_inference_durations_s": [
+      0.6289845928549767,
+      0.05769168958067894,
+      0.09396283701062202,
+      0.048064153641462326,
+      0.05391806736588478,
+      0.05784965679049492,
+      0.049062564969062805,
+      0.054147154092788696,
+      0.053411148488521576,
+      0.0490204319357872,
+      0.09188761562108994,
+      0.04994300752878189,
+      0.08150090649724007,
+      0.08513667061924934,
+      0.061157144606113434
+    ],
+    "observations": 17,
+    "rgb_images": 68,
+    "formal_vram_mean_mib": 16680.666666666668,
+    "formal_vram_peak_mib": 16708.0,
+    "overall_vram_peak_mib": 16708.0,
+    "formal_resource_samples": 12
+  },
+  "sensitivity_action_sequences_identical": true,
+  "sensitivity_note": "The already-launched native repeat completed before the stop instruction was processed. Retained as unpaired sensitivity evidence; no further centralized repeat was launched.",
+  "conclusion": "The first pair has an observed +20.718% formal throughput difference, identical steps/actions and lower centralized VRAM, but first-inference/cache sensitivity and two episodes prevent a stable rendering-attributed or total-wall speedup claim."
+}

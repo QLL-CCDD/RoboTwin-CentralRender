@@ -1,0 +1,81 @@
+{
+  "sdk_version": 1,
+  "benchmark": {
+    "adapter": "ResearchSubsetAdapter",
+    "benchmark": "robotwin",
+    "suite": "demo_clean",
+    "protocol": "robotwin2-v1",
+    "bound_hint": "gpu_infer",
+    "tasks": [
+      "adjust_bottle"
+    ],
+    "episodes_per_task": 2,
+    "episode_shard_size": 1,
+    "seed": 0,
+    "video_logging": false,
+    "benchmark_protocol_id": "robotwin2-native-step-lim-v2",
+    "seed_generation_digest": "7b6622f7e8dc2272b53ea30bb5fef9acede91a6d5270b5487c10232a4250781d",
+    "research_subset": {
+      "name": "demo_clean-frozen-prefix-1x2",
+      "full_official_evaluation": false,
+      "complete_generation_validated": true,
+      "tasks": [
+        "adjust_bottle"
+      ],
+      "task_indices": [
+        0
+      ],
+      "cache_episode_indices": [
+        0,
+        1
+      ],
+      "expected_episodes": 2,
+      "instruction_seed_limit": 2,
+      "episode_shard_size": 1,
+      "seed_generation_digest": "7b6622f7e8dc2272b53ea30bb5fef9acede91a6d5270b5487c10232a4250781d",
+      "benchmark_protocol_id": "robotwin2-native-step-lim-v2",
+      "original_launcher": "/root/autodl-tmp/roboscope-central-render-20261111/native_entry.py",
+      "instrumented_timing": false
+    },
+    "full_official_evaluation": false
+  },
+  "policy_io": {
+    "benchmark": "robotwin",
+    "action_representation": "robotwin.qpos-v1",
+    "action_representation_source": "policy",
+    "observation_stride": 16,
+    "observation_stride_source": "policy",
+    "step_observation_updates": false
+  },
+  "items": [
+    {
+      "ordinal": 0,
+      "item_id": "demo_clean-adjust_bottle-episodes-0000-0001",
+      "group_id": "demo_clean-adjust_bottle-episodes-0000-0001",
+      "payload": {
+        "task": "adjust_bottle",
+        "suite": "demo_clean",
+        "seed": 0,
+        "episode_start": 0,
+        "episodes": 1,
+        "total_episodes": 2
+      },
+      "expected_results": 1
+    },
+    {
+      "ordinal": 1,
+      "item_id": "demo_clean-adjust_bottle-episodes-0001-0002",
+      "group_id": "demo_clean-adjust_bottle-episodes-0001-0002",
+      "payload": {
+        "task": "adjust_bottle",
+        "suite": "demo_clean",
+        "seed": 0,
+        "episode_start": 1,
+        "episodes": 1,
+        "total_episodes": 2
+      },
+      "expected_results": 1
+    }
+  ],
+  "total_records": 2
+}

@@ -1,0 +1,26 @@
+{
+  "weight_sha256": "8ccee8ddb33fa5df83a9a5e2b7d4f737db93f19a051b23f738af8a484fe2d7e5",
+  "weight_bytes": 9785132794,
+  "weight_source": "StarVLA/Qwen3-VL-OFT-Robotwin2@e9cdfc38a0db968bf3a865bcb542d3d455952226",
+  "model_recipe_source": "Exact D model-metadata.tar.gz copied over the verified independent SSH route",
+  "simulator_python": "3.10.20",
+  "policy_python": "3.10.20",
+  "controller_python": "3.11.15",
+  "sdk_version": "0.8.0b31",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.0",
+  "flash_attn": "2.7.4.post1",
+  "policy_execution_note": "Existing Python 3.10 Policy was explicitly authorized for this experiment; SDK-declared Python >=3.11 support is not changed.",
+  "source_sha256": {
+    "native_backend.py": "e0eee3fc3ea3aa253f76b9dd8f4e44c5e63300e23c78a5f860f8697eda0b5c1f",
+    "native_entry.py": "527ad9706d8a10ad8e9f0753fe7117cbfad1d760413b3c84439c079d50063449",
+    "policy_run.py": "2b3eb37c35776468280caa63b25929624bdf4a227fc77cf8349919fc2f5d869f",
+    "policy_trace.py": "5d66978e4b32947be3adaf4be3870f1e3303b5cf34b14fe36bad3b9c0289f29c",
+    "run_policy_arm.sh": "37a9cff49f0685c576d158c931dc52ec0acbd44060fe6b9e04b4d07f19f48899",
+    "central_launch.py": "7bdc7c7acd8f38b7da86c710d1502233417e3e33149d1eff401c3966ca4d2d25",
+    "central_render_service.py": "7fae21faaf7dc21df8b37dff38e6ec9b8f7cb6abec4176c4d714bf572f827fe3",
+    "policy-source/starvla_policy.py": "9feffa1c518e1e02095ddd1f56d43bf2b1facbc0662aba13b6c554330113180a",
+    "models/starvla-robotwin-native/config.yaml": "1c0cf1828c4cff02e6f8073ac0ec54a7423f7b1f249df057be6287c8ab3fe8a5",
+    "models/starvla-robotwin-native/dataset_statistics.json": "00cff63dc4e97a2d65ec2033a8df9c45e09a403effd76e5d5d54bff8d191f097"
+  }
+}

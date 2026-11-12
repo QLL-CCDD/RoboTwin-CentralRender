@@ -1,0 +1,1 @@
+{"event": "episode_finished", "pid": 24004, "mode": "native", "epoch_s": 1794459075.9052637, "perf_s": 27873419.03311694, "episode_id": "robotwin-ce4845db-4f2e-4f57-96b5-573824b5229d", "episode_index": 1, "seed": 1000001, "steps": 124, "step_lim": 400, "success": true, "termination": "success"}

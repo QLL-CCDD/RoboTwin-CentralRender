@@ -1,0 +1,514 @@
+{
+  "samples": [
+    {
+      "worker": 0,
+      "frame": "action-00.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "action-01.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "action-02.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "action-03.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "action-04.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "action-05.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "initial.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 0,
+      "frame": "reset.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "action-00.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "action-01.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "action-02.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "action-03.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "action-04.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "action-05.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "initial.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    },
+    {
+      "worker": 1,
+      "frame": "reset.npz",
+      "state_max_abs": {
+        "body_poses": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "wrist_poses": 0.0,
+        "joint_action": 0.0
+      },
+      "images": {
+        "head_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "left_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "right_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        },
+        "front_camera": {
+          "mae": 0.0,
+          "exact_fraction": 1.0
+        }
+      }
+    }
+  ],
+  "max_physics_abs": 0.0,
+  "mean_image_mae": 0.0,
+  "max_image_mae": 0.0,
+  "motion": [
+    {
+      "worker": 0,
+      "wrist_pose_max_change": 0.3989497721195221,
+      "image_mae": {
+        "head_camera": 13.7685546875,
+        "left_camera": 34.89293402777778,
+        "right_camera": 36.32744357638889,
+        "front_camera": 1.0683246527777779
+      }
+    },
+    {
+      "worker": 1,
+      "wrist_pose_max_change": 0.3989497721195221,
+      "image_mae": {
+        "head_camera": 13.777530381944445,
+        "left_camera": 35.257374131944445,
+        "right_camera": 34.37226996527778,
+        "front_camera": 1.0776345486111112
+      }
+    }
+  ],
+  "camera_config_max_abs": 0.0,
+  "actions_identical": true,
+  "model_step_success_records_identical": true,
+  "model_sequences": {
+    "1000000": [
+      16,
+      13
+    ],
+    "1000001": [
+      16,
+      16
+    ]
+  },
+  "central_gpu_pids": [
+    7800
+  ],
+  "cpu_worker_pids": [
+    7966,
+    7967
+  ],
+  "only_service_owns_gpu": true
+}

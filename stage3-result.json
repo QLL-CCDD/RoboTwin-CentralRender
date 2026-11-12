@@ -1,0 +1,117 @@
+{
+  "generated_utc": "2026-11-11T13:18:50.973614+00:00",
+  "status": "native_physics_and_remote_rgb_validated_policy_not_run",
+  "scope": {
+    "task": "adjust_bottle",
+    "suite": "demo_clean",
+    "robot": "aloha-agilex",
+    "action": "qpos",
+    "observation": "four RGB cameras"
+  },
+  "stages": {
+    "1": {
+      "workload": "fixed nominal visual replay, no IPC or timed physics",
+      "throughput_gain_percent": 25.1373,
+      "metric": "images/s",
+      "independent": 75.0660944,
+      "shared": 93.9357047
+    },
+    "2": {
+      "workload": "synthetic CPU state replay with IPC, no native physics or Policy",
+      "throughput_gain_percent": 19.9174757,
+      "metric": "images/s",
+      "independent": 65.4815335,
+      "central": 78.523802
+    },
+    "3": {
+      "workload": "native CPU physics plus real qpos action replay",
+      "policy_executed": false,
+      "actions_per_mode": 12,
+      "workers_per_mode": 2,
+      "paired_state_snapshots": 16,
+      "paired_rgb_images": 64,
+      "max_physics_abs": 0.0,
+      "camera_config_max_abs": 0.0,
+      "max_image_mae": 0.0,
+      "actions_identical": true,
+      "model_step_success_records_identical": true,
+      "model_sequences": {
+        "1000000": [
+          16,
+          13
+        ],
+        "1000001": [
+          16,
+          16
+        ]
+      },
+      "only_service_owns_gpu": true,
+      "gpu_service_pid": 7800,
+      "cpu_worker_pids": [
+        7966,
+        7967
+      ],
+      "throughput_or_success_rate_improvement_measured": false
+    }
+  },
+  "external_process_lifecycle": {
+    "simulator_subprocesses": 2,
+    "additional_frames": 2,
+    "states_and_rgb_exact": true,
+    "exit_code": 0,
+    "service_closed": true,
+    "resource_tracker_errors": false,
+    "cloud_gpu_after": {
+      "memory_mib": 0,
+      "utilization_percent": 0,
+      "compute_processes": []
+    }
+  },
+  "policy": {
+    "executed": false,
+    "fixed_configuration_prepared": {
+      "K": 2,
+      "G": 1,
+      "task_count": 1,
+      "episodes": 2
+    },
+    "idle_cloud_checkpoint_verified": false,
+    "D_checkpoint_file_exists": true,
+    "D_checkpoint_bytes": 9785132794,
+    "D_last_recheck": "ssh_banner_timeout",
+    "weights_downloaded_or_transferred": false,
+    "gap": "No verified idle host with a local checkpoint. The full Policy/SDK invocation is prepared but untested."
+  },
+  "provenance": {
+    "kit_commit": "329ef983ee81c4f8889e81393c8b7a42dc8c595e",
+    "cloud_robotwin_commit": "c3ddfa8b97d5519efa828b075999bd0006778e5e",
+    "D_runtime_commit": "0fe7d15a86ae19d9411a52520683039cfc81d9ff"
+  },
+  "raw_archives": {
+    "native-cloud-evidence.tar.gz": {
+      "bytes": 20878686,
+      "sha256": "30ba0bc02915c12ce3206d4d24818144a2de6b1ac80e95a85020b477c78f7e8c"
+    },
+    "native-entry-evidence.tar.gz": {
+      "bytes": 394543,
+      "sha256": "9bab484520dcf4d7e47781d4add2f3e49980204406195d7db8e94247f54fd49e"
+    },
+    "native-d-evidence.tar.gz": {
+      "bytes": 18899279,
+      "sha256": "8392fefa09509dcdf97409ee0846669dc9278b2c3e2570c5e97aed17c80bdd64"
+    },
+    "native-entry-final-evidence.tar.gz": {
+      "bytes": 395425,
+      "sha256": "d2e52a707853e03f7adc085dc701e7d526811364fabd8c0e4a05c6ff8b5fc2c4"
+    }
+  },
+  "metadata_logging": {
+    "original_central_json_bytes": 565110290,
+    "cause": "get_obs adds RGB in place; the facade returned its internal camera metadata dictionary, and logging repeated RGB pixels.",
+    "fix": "Return fresh camera metadata with deepcopy, matching native get_config behavior.",
+    "central_summary_bytes": 180541,
+    "original_preserved": true,
+    "post_fix_entry_states_and_rgb_exact": true,
+    "post_fix_metadata_has_no_rgb": true
+  }
+}

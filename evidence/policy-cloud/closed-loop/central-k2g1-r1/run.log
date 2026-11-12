@@ -1,0 +1,66 @@
+/root/autodl-tmp/roboscope-central-render-20261111/site/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Traceback (most recent call last):
+  File "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/experiment_subset.py", line 173, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/experiment_subset.py", line 146, in main
+    code = cli.main(kit_args)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/cli.py", line 182, in main
+    return _run_evaluation(
+           ^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/cli.py", line 295, in _run_evaluation
+    output = run_candidate(
+             ^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/cli.py", line 570, in run_candidate
+    ).run(phase_timing_callback=phase_timing_callback)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 153, in run
+    return self.run_workers(progress_callback, phase_timing_callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 284, in run_workers
+    results = self._monitor(
+              ^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 475, in _monitor
+    self._check_processes(events_path, total_records)
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 517, in _check_processes
+    self._handle_worker_exit(worker_id, managed, events_path)
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/orchestrator.py", line 813, in _handle_worker_exit
+    raise RuntimeError(
+RuntimeError: benchmark worker 0 repeatedly exited with 1; failure_kind=ProcessFailureKind.OTHER; requeued 1 items
+Original worker error from the final attempt:
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 581, in <module>
+    main()
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 574, in main
+    ).run(lambda item: run_task(args, item))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/worker.py", line 55, in run
+    result = evaluate(claimed.item)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 574, in <lambda>
+    ).run(lambda item: run_task(args, item))
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 204, in run_task
+    return _run_task_in_session(args, item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 297, in _run_task_in_session
+    raise RuntimeError(
+RuntimeError: RoboTwin task adjust_bottle exited with -11; see /root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r1/sdk/native-logs/worker-000-demo_clean-adjust_bottle-episodes-0000-0001.log
+Native evaluator log tail:
+/root/autodl-tmp/roboscope-central-render-20261111/site/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+missing pytorch3d
+ROBOSCOPE_ROBOTWIN_ACTION_TYPE qpos
+Traceback (most recent call last):
+  File "/root/autodl-tmp/roboscope-central-render-20261111/central_launch.py", line 66, in <module>
+    raise SystemExit(main())
+  File "/root/autodl-tmp/roboscope-central-render-20261111/central_launch.py", line 52, in main
+    records.extend(receive([control], "service_closed", 30))
+  File "/root/autodl-tmp/roboscope-central-render-20261111/render_compare.py", line 251, in receive
+    raise TimeoutError("Timed out waiting for " + expected)
+TimeoutError: Timed out waiting for service_closed
+CLOSED_LOOP_ARM {"mode": "central", "command": ["/root/miniconda3/envs/starVLA/bin/python", "/root/autodl-tmp/roboscope-central-render-20261111/central_launch.py", "--robotwin-root", "/root/autodl-tmp/roboscope-central-render-20261111/policy-runtime/RoboTwin", "--scenes", "2", "--log", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r1/render-service.json", "--", "/root/autodl-tmp/roboscope-central-render-20261111/policy-env/bin/python", "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/experiment_subset.py", "--phase-log", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r1/phases.jsonl", "--benchmark", "robotwin", "--suite", "demo_clean", "--checkpoint-source", "/root/autodl-tmp/roboscope-central-render-20261111/models/starvla-robotwin-native", "--benchmark-manifest", "/root/autodl-tmp/roboscope-central-render-20261111/policy-runtime/experiment-manifest.json", "--policy-config", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop-policy.json", "--output-dir", "/root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r1/sdk", "--subset-task-count", "1", "--subset-episodes", "2", "--episode-shard-size", "1", "--concurrency", "2", "--replicas", "1"], "started_epoch_s": 1794458489.8741424, "started_perf_s": 27872833.001995943, "returncode": 1, "finished_epoch_s": 1794458546.6813698, "total_wall_s": 56.80722863972187, "ready": [], "episodes": []}

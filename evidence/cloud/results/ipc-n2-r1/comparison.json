@@ -1,0 +1,377 @@
+{
+  "same_dynamic_inputs_and_frame_ids": true,
+  "reset_generation_verified": true,
+  "cpu_workers_without_sapien_or_gpu_context": true,
+  "gpu_process_pids": [
+    4341
+  ],
+  "worker_pids": [
+    4506,
+    4505
+  ],
+  "renderer_settings": {
+    "shader": "rt",
+    "spp": 32,
+    "path_depth": 8,
+    "denoiser": "oidn"
+  },
+  "independent": {
+    "elapsed_s": 12.217184871435165,
+    "images": 800,
+    "observations": 200,
+    "images_per_s": 65.4815334644292,
+    "latency": {
+      "count": 200,
+      "mean_s": 0.1206270743533969,
+      "p50_s": 0.11413799412548542,
+      "p95_s": 0.123125821352005
+    },
+    "device_memory": {
+      "mean_mib": 6484.0,
+      "peak_mib": 6484.0,
+      "samples": 40
+    }
+  },
+  "central_ipc": {
+    "elapsed_s": 10.187993697822094,
+    "images": 800,
+    "observations": 200,
+    "images_per_s": 78.52380200932177,
+    "latency": {
+      "count": 200,
+      "mean_s": 0.09610266171395779,
+      "p50_s": 0.08874871022999287,
+      "p95_s": 0.09920373558998108
+    },
+    "device_memory": {
+      "mean_mib": 3729.0,
+      "peak_mib": 3729.0,
+      "samples": 33
+    }
+  },
+  "throughput_ratio": 1.1991747574448202,
+  "max_sample_mae": 0.0,
+  "minimum_exact_pixel_fraction": 1.0,
+  "image_differences": [
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame000",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame000",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame000",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame000",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame050",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame050",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame050",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame050",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame099",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame099",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame099",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode0-frame099",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode1-frame000",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode1-frame000",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode1-frame000",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 0,
+      "sample": "episode1-frame000",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame000",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame000",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame000",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame000",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame050",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame050",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame050",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame050",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame099",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame099",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame099",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode0-frame099",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode1-frame000",
+      "camera": "head_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode1-frame000",
+      "camera": "front_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode1-frame000",
+      "camera": "left_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    },
+    {
+      "worker_id": 1,
+      "sample": "episode1-frame000",
+      "camera": "right_camera",
+      "mae_0_255": 0.0,
+      "max_0_255": 0.0,
+      "fraction_exact": 1.0
+    }
+  ],
+  "motion_and_reset_differences": [
+    {
+      "worker_id": 0,
+      "camera": "head_camera",
+      "motion_mae": 16.35158420138889,
+      "reset_mae": 12.288229166666667
+    },
+    {
+      "worker_id": 0,
+      "camera": "front_camera",
+      "motion_mae": 11.837417534722222,
+      "reset_mae": 12.303776041666667
+    },
+    {
+      "worker_id": 0,
+      "camera": "left_camera",
+      "motion_mae": 39.69713541666667,
+      "reset_mae": 20.298133680555555
+    },
+    {
+      "worker_id": 0,
+      "camera": "right_camera",
+      "motion_mae": 41.34097222222222,
+      "reset_mae": 15.273224826388889
+    },
+    {
+      "worker_id": 1,
+      "camera": "head_camera",
+      "motion_mae": 19.134926215277776,
+      "reset_mae": 12.035920138888889
+    },
+    {
+      "worker_id": 1,
+      "camera": "front_camera",
+      "motion_mae": 10.04236545138889,
+      "reset_mae": 9.749500868055556
+    },
+    {
+      "worker_id": 1,
+      "camera": "left_camera",
+      "motion_mae": 30.478342013888888,
+      "reset_mae": 18.306979166666668
+    },
+    {
+      "worker_id": 1,
+      "camera": "right_camera",
+      "motion_mae": 41.3783203125,
+      "reset_mae": 9.474262152777778
+    }
+  ],
+  "service_inclusive_by_worker": [
+    {
+      "count": 100,
+      "mean_s": 0.04804700426757336,
+      "p50_s": 0.04473468288779259,
+      "p95_s": 0.05115850642323494
+    },
+    {
+      "count": 100,
+      "mean_s": 0.05111701034009457,
+      "p50_s": 0.046384382992982864,
+      "p95_s": 0.054585665464401245
+    }
+  ]
+}

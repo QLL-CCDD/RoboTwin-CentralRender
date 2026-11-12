@@ -1,0 +1,1 @@
+{"event": "first_policy_ready", "pid": 23582, "mode": "central", "epoch_s": 1794458867.7911398, "perf_s": 27873210.918993384, "episode_index": 1, "seed": 1000001, "render_system": false, "model_id": 16, "observation_stride": 16}

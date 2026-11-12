@@ -1,0 +1,2454 @@
+{
+  "status": "complete",
+  "options": {
+    "robotwin_root": "/root/autodl-tmp/roboscope-central-render-20261111/RoboTwin",
+    "mode": "independent",
+    "scenes": 2,
+    "frames": 100,
+    "warmup": 5,
+    "gpu": 0,
+    "artifact_dir": "/root/autodl-tmp/roboscope-central-render-20261111/results/ipc-n2-r1/independent",
+    "suite": "demo_clean",
+    "task": "adjust_bottle",
+    "cameras": "all",
+    "seed": 1000000
+  },
+  "workload": "Synthetic CPU rigid-body/robot-FK/camera sequence using complete RoboTwin visual assets; no physical rollout",
+  "renderer_settings": {
+    "shader": "rt",
+    "spp": 32,
+    "path_depth": 8,
+    "denoiser": "oidn"
+  },
+  "source_sha256": {
+    "benchmark_ipc.py": "202f02392bc8f98c1add96b81d04d47bee5d0d6c8bf46964bbcf931296cd6ef1",
+    "central_render_service.py": "e453d47a6950678b4ab087be962093188fb3651364bef0e2610ea8e6a5fa2ef7",
+    "replay_state.py": "df92bfced66d61938a512eadb5887d5803730dd074744d9cad558d559fe813c2",
+    "visual_scene.py": "af310e4b23f25dd7ae9c47bd4b911893f40a217adda664a6a5a7d923b9215046",
+    "robotwin_visual_replay.py": "1daa5d6831287bcce94cb01b8ce3c3dfbc45c6cb5a7f29f32d01c36c0ce7742e"
+  },
+  "gpu_before": {
+    "time_unix_s": 1794427451.1814904,
+    "monotonic_s": 27841794.30934388,
+    "returncode": 0,
+    "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 0, 49140, 0",
+    "stderr": ""
+  },
+  "compute_apps_before": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "warm_ready": [
+    {
+      "event": "warm_ready",
+      "worker_id": 0,
+      "pid": 4593,
+      "initialization_and_warmup_s": 7.205643851310015,
+      "sapien_imported": true,
+      "aimed_qpos": [
+        0.0,
+        0.0,
+        3.18428235609501e-22,
+        3.18428235609501e-22,
+        -4.53510836731711e-17,
+        -4.53510836731711e-17,
+        -0.4896099865436554,
+        0.19935999810695648,
+        1.6882383491179098e-08,
+        1.6883495490560563e-08,
+        4.2100930857754755e-20,
+        4.2100930857754755e-20,
+        1.0473055873921206e-19,
+        1.0473055873921206e-19,
+        0.5635200142860413,
+        0.5632100105285645,
+        1.5156231256696628e-06,
+        1.5156231256696628e-06,
+        0.6442199945449829,
+        0.4614599943161011,
+        -0.00018752497271634638,
+        -0.00018752497271634638,
+        -0.6977499723434448,
+        -0.3362700045108795,
+        -1.7330410628346726e-05,
+        -1.7330410628346726e-05,
+        0.188060000538826,
+        -0.6279699802398682,
+        -5.658720159118502e-09,
+        -5.658625124027594e-09,
+        0.13414999842643738,
+        0.3928000032901764,
+        1.6117005507965132e-09,
+        1.6119978685225078e-09,
+        0.044999994337558746,
+        0.04500001296401024,
+        0.044999994337558746,
+        0.04500001296401024
+      ],
+      "aim_errors": {
+        "left_camera": 0.0014073755033708621,
+        "right_camera": 0.0010866795656929225
+      },
+      "body_count": 56,
+      "render_shape_count": 60
+    },
+    {
+      "event": "warm_ready",
+      "worker_id": 1,
+      "pid": 4594,
+      "initialization_and_warmup_s": 7.270114969462156,
+      "sapien_imported": true,
+      "aimed_qpos": [
+        0.0,
+        0.0,
+        3.18428235609501e-22,
+        3.18428235609501e-22,
+        -4.53510836731711e-17,
+        -4.53510836731711e-17,
+        -0.37926000356674194,
+        0.2642099857330322,
+        1.6882383491179098e-08,
+        1.6883495490560563e-08,
+        4.2100930857754755e-20,
+        4.2100930857754755e-20,
+        1.0473055873921206e-19,
+        1.0473055873921206e-19,
+        0.47714999318122864,
+        0.5997800230979919,
+        1.5156231256696628e-06,
+        1.5156231256696628e-06,
+        0.49055999517440796,
+        0.6406700015068054,
+        -0.00018752497271634638,
+        -0.00018752497271634638,
+        -0.36465999484062195,
+        -0.6702100038528442,
+        -1.7330410628346726e-05,
+        -1.7330410628346726e-05,
+        0.6029099822044373,
+        -0.21235999464988708,
+        -5.658720159118502e-09,
+        -5.658625124027594e-09,
+        -0.20175999402999878,
+        0.06396999955177307,
+        1.6117005507965132e-09,
+        1.6119978685225078e-09,
+        0.044999994337558746,
+        0.04500001296401024,
+        0.044999994337558746,
+        0.04500001296401024
+      ],
+      "aim_errors": {
+        "left_camera": 0.0010546371466698767,
+        "right_camera": 0.0013878338444496881
+      },
+      "body_count": 56,
+      "render_shape_count": 60
+    }
+  ],
+  "gpu_after_warmup": {
+    "time_unix_s": 1794427458.7528498,
+    "monotonic_s": 27841801.880703535,
+    "returncode": 0,
+    "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 67",
+    "stderr": ""
+  },
+  "compute_apps_measured": {
+    "returncode": 0,
+    "stdout": "4594, /root/miniconda3/envs/starVLA/bin/python, 3214 MiB\n4593, /root/miniconda3/envs/starVLA/bin/python, 3214 MiB\n4593, /root/miniconda3/envs/starVLA/bin/python, 3214 MiB\n4594, /root/miniconda3/envs/starVLA/bin/python, 3214 MiB",
+    "stderr": ""
+  },
+  "measured": [
+    {
+      "event": "measured",
+      "worker_id": 0,
+      "pid": 4593,
+      "started_perf_s": 27841801.937038157,
+      "finished_perf_s": 27841814.153993953,
+      "observations": 100,
+      "images": 400,
+      "latency": {
+        "count": 100,
+        "mean_s": 0.12065683443099261,
+        "p50_s": 0.11415153555572033,
+        "p95_s": 0.1240435242652893
+      },
+      "latencies_s": [
+        0.11249040439724922,
+        0.11504587903618813,
+        0.11319810524582863,
+        0.11412865296006203,
+        0.11336805671453476,
+        0.11531886458396912,
+        0.11340205371379852,
+        0.11371852084994316,
+        0.11335745081305504,
+        0.11388708278536797,
+        0.11819595471024513,
+        0.1157635971903801,
+        0.11222893744707108,
+        0.11457031220197678,
+        0.11446725949645042,
+        0.11264102533459663,
+        0.3922217972576618,
+        0.11298713460564613,
+        0.11292755231261253,
+        0.11545698344707489,
+        0.11420239880681038,
+        0.11479353532195091,
+        0.11397532001137733,
+        0.11428100243210793,
+        0.11343768239021301,
+        0.11348111554980278,
+        0.11451859399676323,
+        0.11496538296341896,
+        0.11453652009367943,
+        0.1163124218583107,
+        0.1129053607583046,
+        0.11440105363726616,
+        0.11379669234156609,
+        0.11543544381856918,
+        0.11369175836443901,
+        0.11403917148709297,
+        0.11418304592370987,
+        0.11619492247700691,
+        0.11343961209058762,
+        0.1145370788872242,
+        0.11494912952184677,
+        0.11332094296813011,
+        0.11348683387041092,
+        0.11368735134601593,
+        0.1121833547949791,
+        0.11340436339378357,
+        0.11093224957585335,
+        0.11157366260886192,
+        0.11078325286507607,
+        0.11142828315496445,
+        0.11146729066967964,
+        0.13641361519694328,
+        0.10109395161271095,
+        0.1118556335568428,
+        0.10820070281624794,
+        0.11103494837880135,
+        0.11110104992985725,
+        0.11113682016730309,
+        0.1124286875128746,
+        0.11293552815914154,
+        0.4661899656057358,
+        0.11391780525445938,
+        0.1139150895178318,
+        0.11344297602772713,
+        0.11345972120761871,
+        0.11369509994983673,
+        0.11372131481766701,
+        0.11370439827442169,
+        0.11368921026587486,
+        0.11379542946815491,
+        0.11583231389522552,
+        0.11339816451072693,
+        0.11462153494358063,
+        0.11469585075974464,
+        0.11633770540356636,
+        0.11396512389183044,
+        0.11419177055358887,
+        0.11448093876242638,
+        0.11405270919203758,
+        0.11484909802675247,
+        0.11476530879735947,
+        0.11464931815862656,
+        0.11417441815137863,
+        0.11449778825044632,
+        0.11493828892707825,
+        0.11445845291018486,
+        0.11538184434175491,
+        0.11597897112369537,
+        0.1158989854156971,
+        0.11762497946619987,
+        0.11547178030014038,
+        0.12552307918667793,
+        0.1161080114543438,
+        0.11631271243095398,
+        0.11633014306426048,
+        0.11556338518857956,
+        0.11592864990234375,
+        0.11642847582697868,
+        0.1240435242652893,
+        0.11572771519422531
+      ],
+      "service": {
+        "count": 100,
+        "mean_s": 0.12062081195414066,
+        "p50_s": 0.11410645954310894,
+        "p95_s": 0.12400659918785095
+      },
+      "queue": {
+        "count": 100,
+        "mean_s": 0,
+        "p50_s": 0.0,
+        "p95_s": 0
+      },
+      "identities": [
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 5,
+          "digest": "1233e15045f87446998fc6945e1fe54be47192a938a15d30ac1fc8d1309c5186"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 6,
+          "digest": "0d55ebbc7d2fe80fb04b57d8dc41ac00de1c29fc6730ae08f41c09085700a853"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 7,
+          "digest": "576170661f08395269b1e56427290271e5c26189e96815a4d8cdcf479c6bf603"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 8,
+          "digest": "c1eb7463866e06f9bc0f4ea015d39fa2c73ba267c9e57b51352abbe7a18a2bb4"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 9,
+          "digest": "0269421458222eb398482c38712aeca52f7f471a08f8644441f27481fb878081"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 10,
+          "digest": "e82858930fcbc56636fea5cc52aabd0c6ddd160921bd7aa91083c563b0d74cd2"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 11,
+          "digest": "b8badf4e72676fba8bd2f2cd5fce6f7709996ba69419d09a6ab77ad53088452c"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 12,
+          "digest": "d32add71253245379d624a790a7fb6c89f19fc3fd098b3c7bc5343a69f480681"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 13,
+          "digest": "b27e734cf02eab385d3f9d6a1c63d1123b7ef7b21e39ad4431ba11574f2803ab"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 14,
+          "digest": "74cd3bd331c2d2915f46a25d93b11f753b2f998bdbabbe3aa8b9385b3a095b4c"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 15,
+          "digest": "a695328357bbfe8dcaa0c91ffeb88ab744d6d59688997042adc97fda6352adea"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 16,
+          "digest": "c67d1dbae1b89618da4911570170d2a8a4cfb3a68e77c80cb5524819fc131179"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 17,
+          "digest": "ee4694a14c6c181cea1ccecfb146f4cb9dc01fc4b8e606ce6b27234b64585ffd"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 18,
+          "digest": "6e67ea0d1e0c452bd26aca9bfaf597cb86f793950c6abc69fb133266c4d5076b"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 19,
+          "digest": "262123eb57bcb83744437b8cd9dcacb4093db0057097cc48772e6467714a168e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 20,
+          "digest": "dfa3146ce03eb3c9e1dc6a1dfed5a8ffba8a619f8fe95bd78174171bc69faa37"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 21,
+          "digest": "d95778a810d1f0006b520bfc4880349aafbfbe68605fe6cf535bcf69d7f49892"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 22,
+          "digest": "6e754ed5f64b6805421c0af7d66bda4077217eb64324be4378fb9fd3fc5bf034"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 23,
+          "digest": "13ab67b009a973f990c754cbc40705a590ed5a96e01c7cc8fc3fdc526d5455f0"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 24,
+          "digest": "2db08a4ebd3e5341c32c40aabdd2e8d3dff0809834a5962f4204a5bc2f81067a"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 25,
+          "digest": "4388f98106cd295eaf1cc428c742f142360cf3da2bae4238727427eafe466d51"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 26,
+          "digest": "bf9ebc2b3664aab05bb848f46964398b85aa7ea43913eca60a94428129eaae34"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 27,
+          "digest": "831abec3aefb2617798bc5a2f0bcd7ec65ecab0519cfe55dd88167e2e6ca6cb9"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 28,
+          "digest": "dac1785098e57e38bea1edbb601fe99abb85ec0491ec90e0d4a0519d070e98c9"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 29,
+          "digest": "84d319933d2918ab830a17eca8ee88c8b5efb3cdc6f940d7c48ac078a30e076e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 30,
+          "digest": "f88ba9983925ae5f1b33afa55e1fe04173224a4a13770cfd9ff0268bf64cbcf4"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 31,
+          "digest": "e83a6d0ef32a01faf7cb38e78214bf78134c28a0636556d14a593801a42e4620"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 32,
+          "digest": "fc893a88ab10d84041a92bf0a72b68ae05c2e80b54ed9ee1e23bcc7dacc03275"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 33,
+          "digest": "a5c6b4c9e651c9bcce6a9f71c49343d69c04b476704129c11e5a3d8bf9d6d079"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 34,
+          "digest": "fb9e18e40121af6b4c8124380050b49bfa812259599987aa26b254f4a8b20c95"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 35,
+          "digest": "01e31ec6976f61823a310963c779a70d547e869e6ff0fd54297f01fc93327009"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 36,
+          "digest": "bb05971653de88f4be462a9cb399443d64d943a02611e59aafd272e4212997eb"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 37,
+          "digest": "ed89d0f31745ea542e6ad538df4a1036b1e1a8513e70ac2f6edea911a99c7220"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 38,
+          "digest": "ae90f0dc7c65b6da0220999471873ca1eb5f756ac03b8e738f8797b3f3712577"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 39,
+          "digest": "11c39915b2132769cb918af95ba18cc911052aeff84bcf8c4c8fe1bb44ba45ee"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 40,
+          "digest": "5c8bb4ff9b50c16ac683a48cab5d0448d07736bd96b2c6a6b6e35bc0d4d608dd"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 41,
+          "digest": "a08bf609dd55b06b4e21d5adbfcae1afa8d9f472ed278cf00972154ba3209b06"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 42,
+          "digest": "902ba42a19fbabd531a7eb8b0bb5621a94f80112d28a29c8d90cded55c9930a6"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 43,
+          "digest": "51812150fadd386c82e194de7ab1a361aee731272fbfd62ddb78936885b14661"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 44,
+          "digest": "4a7939a2249f727df932e24a07edb44160d5fa34abf96840a3c7d899832e140d"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 45,
+          "digest": "e35d0dfbfc0a9337a21220eed8d7bb7d5500e68cc8e7f574e465fde3465af888"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 46,
+          "digest": "0a02cc2bfad0011d01c60abf606a4fa4d02ebf99e80effc7cd094bcc90bffa64"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 47,
+          "digest": "535741dd6f8056f52c1f419f65c84dfe20fe23b40405343486f58d5424efa499"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 48,
+          "digest": "1db62884384ed96cffbe44c40788ca430b6a69f201183e3285dd6c6327900083"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 49,
+          "digest": "bd7bdd7b41f510bc274ddd14987a7b28fef0c4600e7258dfb5431aead591a29d"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 50,
+          "digest": "7a8615e05b1400128c9fad038a80b1cb8831af2b68d66d04018ace561ac4424a"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 51,
+          "digest": "62b0683afcd5da8cf2ccc2e02a8f3b222f0c117dc2ef0a0be8ff3e4f767d12a6"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 52,
+          "digest": "a1f9297a3faeb2652dc705139ea2b34739384bbf502bf9929f100b296b4483c4"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 53,
+          "digest": "cb16cf816669cf6541a0d7c3e3d6be3c980f7cd0845b55d0fa96b8c79d54c0db"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 54,
+          "digest": "3fa5ade03fc5f930ed257dc3f8dc4fdf632dcfeb9fe9068adcf80fde6c22e62d"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 55,
+          "digest": "99698584365cb976aa1022bfdcff6566692bf89efea18c60e1a124106b13d7d3"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 56,
+          "digest": "49490a8104497890c3818ce8168bf2c62481e839bb4a835851f73be3f04f12d4"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 57,
+          "digest": "7bcd7529d9251c251a5fb27852cb04f8f3d4c36f1ccfc27c909abf4ea3ad1d8e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 58,
+          "digest": "d217fdc54e7f83b9b2b87b97356b58d2f851252f52aae43c9e73c2ade494357b"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 59,
+          "digest": "dae476a39e126392afa1fb2a7a44dad762b62db571dfaf4e8b2a9940a6068334"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 60,
+          "digest": "b340ccec5e9d9e91b7c333d51b99d33be83986b5f29456c8cf521728fd5db1aa"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 61,
+          "digest": "8186cc6d3091208928f3799537a67d7d8f88c60083d9a3c423a2611ca26f074b"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 62,
+          "digest": "c13a922c874439662b5df417d04b73d24a0901040c5772879fdeca2084e7805c"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 63,
+          "digest": "511c78f2b1ca114559617b1f9d81827f5491c9ff16d79c2d80396c6c8e94897e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 64,
+          "digest": "3eaf0150d1039a8192d68cccd93f2804a6cf46151ba2fdd5283d15002af94d26"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 65,
+          "digest": "dddb5550a92f241c4c76831a9a9d84b07387581a70ab1049cfeac04149a5bfd7"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 66,
+          "digest": "f61038d5ed57d6135ff1993d8b129ddd281f2ccd6362c94a45a9e00fc8feb6cc"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 67,
+          "digest": "9a2613a08019e9ac6c24f8b9bf0621a3d487faa476263861dc6e0a28425438c7"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 68,
+          "digest": "1bdaa6ee55551c9ae68964599f09f918b174c1ca5586c8e6501ee9b96d6d9ebe"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 69,
+          "digest": "28edc5692264d6f92092a2d5f715a14f93a067b1b8930e4415fda18e9bb4249f"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 70,
+          "digest": "b73fb09979f8e7c1ef04d6e1cc621261e60e8c0e772ab27a9128605c0a12b0d7"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 71,
+          "digest": "e6a2e13e71d3c7447f4b1312b63642c5f8787f68279efac3b23b95e229083b5b"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 72,
+          "digest": "3d189099c76cd13077a9ae3b8beece3a2c4b6d56d00cac33349a37bcfc9c178b"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 73,
+          "digest": "a3cda9db2bd20c382741b218198193f92f7ec9d1451c606777bba64244d517ee"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 74,
+          "digest": "d44372b017b540a160f3bac5dac9230f5f2142908c4f8d7243385f8f75297973"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 75,
+          "digest": "6521b68056c290d6aa1f851ace816672e8a56c2db3b3adb4ae6747b0b6133bd5"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 76,
+          "digest": "74df54fb7e68c850d7fea152c8d26ab74deed6c16c9d330abc650c8687d85b16"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 77,
+          "digest": "bb61d5512957a7d9ddd74a3f08ee931e0ef7c155b38d14f80fdbdea28ca190df"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 78,
+          "digest": "1a8d7bf023b0c4fd09558dda17bbf1e948ecee7177741e3b8e43298bd9d35eb1"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 79,
+          "digest": "84e4ce3a5bba4d3581af95af0be898473cdba8aa69ab972829ea435807145ede"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 80,
+          "digest": "84726a5dff90a0a6df78c6c6a2c26aab1464fad90d4f30d2b8542c8d6aeae5f2"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 81,
+          "digest": "937ca37993981e179bb56720e596a2229b161cb509e66683f75faa16b518d857"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 82,
+          "digest": "8af2915e291bc5711d68d009c83c5dc358201a5e1e0630e7367436bbd8eb07d7"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 83,
+          "digest": "20f5828cd93ec283fb49ac69036eed98684e48842e33d587439fdfbc17d3e0d5"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 84,
+          "digest": "56e16a5b5d1d87ebcb7a0393d4be2fc37375e0c89db5edfdfeed48b868100e47"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 85,
+          "digest": "b068997d72cb1dd41676367dd0b6bb38ab3463a7c75273f71ef75b46a53312f8"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 86,
+          "digest": "8e302bc60ffd64f8f1142df294861965c580215e2d774481ae91b24f9833bb12"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 87,
+          "digest": "fc975b7bfecd79267a444f7268d506ecbe4b4fd14a4adeab7fd5d87f0c2edfde"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 88,
+          "digest": "c3575add8e041101da12dfeb48e526b34c3b0f2874b7efc54180c194831ec12e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 89,
+          "digest": "5bc482acd20b1e34a090cd7135cf71c0f0bbc456fefb3b3c0ebcaac94b32015a"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 90,
+          "digest": "2479d8149d7da434a4ca731bd2b401345495dc17cff17b371e412341c992207e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 91,
+          "digest": "af7d4354b7321d349c0e1125c6e2123c49702a79a10b67f4a62caa10cdf12f5b"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 92,
+          "digest": "3d2a13c9dde4f3d0b787b7278287ff792014094040ceff3a302b150e3a1ac16e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 93,
+          "digest": "193638c16cca1a03bba079c548f0c22401bbedc35acbcc4ba17224cd68d1f863"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 94,
+          "digest": "41d55f12778a0f04192fa658184a92893d2fd4cc5cc47fdc07226c51b94bb776"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 95,
+          "digest": "347f73de119cd4232ba6add13e513ca7e4d3cf411d380c334f6eb2ba199eae65"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 96,
+          "digest": "bf92d31686b473bdfc4cab5b19da551cf8b869ce37ff603fb114173865080455"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 97,
+          "digest": "5f72c06007eb2c427b451a06910c26d3aa51c40ed86e4a3950214e004c2140a2"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 98,
+          "digest": "7e1808fec83aa2f98c10f0d642a77d5a3e88013e2c8181bb8358f9a13b515210"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 99,
+          "digest": "390ce496b935747678a0fa87d61f08bc2335b45a01c24cb84c486140b22aa6c2"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 100,
+          "digest": "e9f5c9e92535c2a3b8dd31f00f9b8dab7cb310a860b200b31b5765af0405035a"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 101,
+          "digest": "117a03600355b86cb1deaa69e2eaba3493bb6fa4e5c3cc6d4212a37e3f451283"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 102,
+          "digest": "005e466adef7fbbdb7ebfa98bbea23d9fa9306f6865ece335ade289d1b25c430"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 103,
+          "digest": "c9f84f4ed0a9f8a92689cb0ddd3b8421d1c09c96c05a337307dc5ff45f165b2e"
+        },
+        {
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 104,
+          "digest": "599f4b1f06d02f2d79e919d68fbe86614082736ab3b70d43fa55ce8e4aab493a"
+        }
+      ]
+    },
+    {
+      "event": "measured",
+      "worker_id": 1,
+      "pid": 4594,
+      "started_perf_s": 27841801.9370099,
+      "finished_perf_s": 27841814.154194772,
+      "observations": 100,
+      "images": 400,
+      "latency": {
+        "count": 100,
+        "mean_s": 0.12059731427580118,
+        "p50_s": 0.11412744410336018,
+        "p95_s": 0.123125821352005
+      },
+      "latencies_s": [
+        0.11271360144019127,
+        0.11465708538889885,
+        0.1132814809679985,
+        0.1140344962477684,
+        0.11350937932729721,
+        0.11355620250105858,
+        0.11511331796646118,
+        0.1131221204996109,
+        0.11333315819501877,
+        0.11303965747356415,
+        0.117989931255579,
+        0.11442829668521881,
+        0.11469346657395363,
+        0.11376730725169182,
+        0.11444629356265068,
+        0.11318587139248848,
+        0.3919025845825672,
+        0.11312783882021904,
+        0.11143828555941582,
+        0.11456337571144104,
+        0.11268460750579834,
+        0.11489153653383255,
+        0.11402202025055885,
+        0.11410755291581154,
+        0.11522059142589569,
+        0.11168393865227699,
+        0.11476210132241249,
+        0.11470368131995201,
+        0.11622338742017746,
+        0.1129634752869606,
+        0.11508643627166748,
+        0.11366941779851913,
+        0.11379710212349892,
+        0.11734289303421974,
+        0.11195456981658936,
+        0.11406728252768517,
+        0.11424524709582329,
+        0.11594787240028381,
+        0.11322880536317825,
+        0.11452234536409378,
+        0.11491644382476807,
+        0.113249022513628,
+        0.11342306435108185,
+        0.11364685371518135,
+        0.11229653656482697,
+        0.11352821812033653,
+        0.11098594218492508,
+        0.11171836033463478,
+        0.11220716312527657,
+        0.10993358492851257,
+        0.11145533993840218,
+        0.1294953040778637,
+        0.1071104183793068,
+        0.11020096763968468,
+        0.10950557515025139,
+        0.11141606420278549,
+        0.11104413121938705,
+        0.1127585880458355,
+        0.11110546067357063,
+        0.11294283345341682,
+        0.4662584811449051,
+        0.11409806832671165,
+        0.11378907039761543,
+        0.11333546042442322,
+        0.1134917289018631,
+        0.11395642906427383,
+        0.11377060413360596,
+        0.11372219771146774,
+        0.11550268158316612,
+        0.11199846863746643,
+        0.11414733529090881,
+        0.11475185677409172,
+        0.11461851000785828,
+        0.11465128883719444,
+        0.11634411290287971,
+        0.11403292417526245,
+        0.11425864696502686,
+        0.11460819840431213,
+        0.11419742181897163,
+        0.11450282484292984,
+        0.11470815539360046,
+        0.11459198966622353,
+        0.11582024395465851,
+        0.1132952906191349,
+        0.11493483185768127,
+        0.11449195817112923,
+        0.11539449915289879,
+        0.11605409905314445,
+        0.11591130495071411,
+        0.11609364673495293,
+        0.1164323166012764,
+        0.12539179623126984,
+        0.11610552296042442,
+        0.11629264056682587,
+        0.11626113951206207,
+        0.11546726152300835,
+        0.11584983393549919,
+        0.11822328716516495,
+        0.123125821352005,
+        0.11528098955750465
+      ],
+      "service": {
+        "count": 100,
+        "mean_s": 0.12056128598749638,
+        "p50_s": 0.11409750953316689,
+        "p95_s": 0.12309284880757332
+      },
+      "queue": {
+        "count": 100,
+        "mean_s": 0,
+        "p50_s": 0.0,
+        "p95_s": 0
+      },
+      "identities": [
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 5,
+          "digest": "15103cf4d8bca25c27f280aec33417f835c09a29e50613044a84670f8d8ffaa9"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 6,
+          "digest": "4d8a660d05e3fcff22357c2ae932dcb8a2b850062f1a6b418acef640f1509e67"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 7,
+          "digest": "4d1b5e8fbf3dca805c1e38d19092638a637ae3e55dd6de9516054d8b5dd2a8dd"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 8,
+          "digest": "fa7d79657b55b9359d14a6918116ed282fc2443842907b86e24e3e99fbed73fd"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 9,
+          "digest": "0e75565f4e2a2214e4002e9b5d5fc9ea8044e8f5d428189fa8c3cc862390a779"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 10,
+          "digest": "c93aa37b9c5445317aba9902699ec78ca678e7233b25b57b716a05a1fba1395e"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 11,
+          "digest": "de97729b43b820078f95e5f6c3b5b7c780005a370278b3f9be5e80ac3657ca6f"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 12,
+          "digest": "0cce6611331418297ab6671759e901a07d4f66e011ccef0a497a679e26c567cc"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 13,
+          "digest": "fcec9c05b29f08e53b4881d2334b85bee48c3647264a812117c43ca4922efc93"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 14,
+          "digest": "0919e024428bcbbbb3dce9d012e73894298d22aaac012b7ce5269c6e30401634"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 15,
+          "digest": "831ac328a557d484017f548e4648f987260f413f08ba1eb5c7508e2970821255"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 16,
+          "digest": "f1265bd53de8e1e414f5a211cdf71186e5f116ace249a4a0fc5df4b55f910161"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 17,
+          "digest": "2fd0b712ec9ed349324c3dce5e938097207526e68049050f827b7fd41608d51d"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 18,
+          "digest": "96da93eebad80ee011c01c09ccba4e6d5cc658bc6fcab3bbdb57a2c7c4ee2083"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 19,
+          "digest": "e85c7f0be6831259b9479e38e383c72691049fd14b65daa4212e857e807527fb"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 20,
+          "digest": "73a4cb9ff18fb10e5c13fc01360ee950db5b37671aa58bea69ab785b046345fa"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 21,
+          "digest": "7de750e9eb34fe8023bb4d228c864f151093c8e9be74b7d7ae13289e5de15307"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 22,
+          "digest": "8e242cbf39e66950ebc0ef376ce9e38af31066c86667b94732e74b2653aa69bd"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 23,
+          "digest": "43216324fcb510daccf2a8805224d8983018b51f2d05fa638ef2193831024505"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 24,
+          "digest": "b9455f307880ad85ae1e8abaa7405e429328bc7f252cc49bd8bf1aa428538199"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 25,
+          "digest": "64f3a1066808317a9a6f709342906886b3838d9d6a2f2896405e515c58f7aa11"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 26,
+          "digest": "c85a6590d9776513bf4a2cf7a092472df990321f6bd29e3f2609455adcbcdd22"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 27,
+          "digest": "bd3ee448abb6ca9f66c09bad3972535141afda83fa4420700b5cdbc4535e6c17"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 28,
+          "digest": "c13447ccc7b87a1679405b4ec8a6f39505009e9406fb016b4a5ac3c0f9f9851c"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 29,
+          "digest": "2cb1bb6b458768baea8d8337925be09c222ac98cd756f08cfee123a797c6e601"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 30,
+          "digest": "90b767b0d440669e0ee94873d5eea844a7fb1cd2f1d8f26ee9366ef887a7bfdb"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 31,
+          "digest": "d67ed46fc57f3500d51065a36bc3073a96a3fb7c5174dc5d7133b0812cfa1935"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 32,
+          "digest": "ac0257a02ac61b0a35e84896c24991b65bf0957f371f864e03014e59f1dcc731"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 33,
+          "digest": "b84f4537230ec4cfd8f5cf44651feb04fe243807271916c563c073d7fa2f4366"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 34,
+          "digest": "96457a4f184bbe26b35104db3d5d676f5ac520f49345054d7b9cbd6898b10e8f"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 35,
+          "digest": "7d065bac776bd0b20e3ac33d64abadb98461ce8b568c3521054d3152f22313b6"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 36,
+          "digest": "28928e0c7e9f4f8ca024029cd311dc94ec172f9697db9e8ec861034f41c3f0fd"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 37,
+          "digest": "29a34ac65a0999f3ee11d745ac998c378c6d2713dc82ad600db3850b99f9369c"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 38,
+          "digest": "358d28f6d5cf768035d8796e7e43a48e6c6484b3f870587bdda2cb817352244b"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 39,
+          "digest": "6d2a4c10301b806401313e4a46c8c298cf10e1b8c33b0aa3829d52342ec57906"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 40,
+          "digest": "03ee6fb7a0b743eb1c7b10e5fa007f4c9b5673c3e568783e8d579ff450b476ad"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 41,
+          "digest": "116cee751dce6b66a38dbebd18f8a9c81ac39715b31828a527524f84e59cf6c5"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 42,
+          "digest": "974740033c389a829b3770ac36eda6de965a77eafe2c78b2586ec945416a50e3"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 43,
+          "digest": "14b6ca127b46f54d32bded95b182c1d03016bfcf99122fbc91e78ec42ecac79f"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 44,
+          "digest": "b29ade7936723f4baf1b2ac11840e59830c291ab376f2ab55fe6319a90ef5a0f"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 45,
+          "digest": "9b55a23681344051c59d406d47342ad2c00642539ce3af76f42f7d5394a545c1"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 46,
+          "digest": "2eedfe8504e863fa0b4e42cee80a1329c976f6acf03ac7ec06d933e2b2ee2767"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 47,
+          "digest": "a953ff9d74264dcad2a1cacd72e13c941d1ef9d0e16ee339e57a5c71bc29a8fa"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 48,
+          "digest": "dab13fe1e97f13f5cf98537744474704f962b4e55a613ae60caaf3cb2389573a"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 49,
+          "digest": "599e5ce34bfe010ff8fff22db93929514959c9a521b9f7a5c7fe38ba4b6daa40"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 50,
+          "digest": "e0d4b89d3ca66d097cad94e003fb0a6adeb3a8b5615613aef23ef3f32f21184b"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 51,
+          "digest": "de45e4d9b423b3ca556c3992ba04f722a009451fe0e981625ab6ffd2b93abbdf"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 52,
+          "digest": "b1d0efcc720ab3e620810eea92245ca4a20679b6ad4b4aad97bbd3c0667e1ea0"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 53,
+          "digest": "7d5b5696a01756d3092ea09082d670fe4146fbd813a96cffa7adbb2e6d12bf95"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 54,
+          "digest": "c67e53c4957b25553ae57c7dce0364e9a8c5a20cc4a18d71c0d35a50a8636c36"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 55,
+          "digest": "b8856c71576ab02fce8471cd6143a963e0028d0d43e522a364381daf021a7f18"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 56,
+          "digest": "77ba3858a24cb064b4650d124470be577d03ff42ddfdd65005fa7decba5a495b"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 57,
+          "digest": "462b54913c51564518af861e465bd979ba3b203990d1cf1b9ed6d753fccb0847"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 58,
+          "digest": "68ec01ccb21c0ab364d632f1cb30d83ea12fd3c56e9aaeb27d4fb31bb62ce69e"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 59,
+          "digest": "3dabbfba8f6fd03793e8b26082c341fbec8d8318d3422e7dbbe65d9d0708b692"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 60,
+          "digest": "c8b47c1fa2ae8fa739270ee14d178b3f11eba21d889a7410a2778b44cdfaa0a3"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 61,
+          "digest": "408d0506f900f705a3a9a215cc198c7ab58099191ede6ed05fe6489ed1f72970"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 62,
+          "digest": "3234097a723c5cedf64d2597a635c290e728e90ed556efcd0525db6d81a4be89"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 63,
+          "digest": "402d7e7fa447690b9ac5f98792cbd4397d95ec2af832c526e00dd1cd822e3323"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 64,
+          "digest": "7895de7296115d78829c21fc3a374749abbbdf53b18d82f8751d98d5757e75be"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 65,
+          "digest": "7798e832bf8b5782e4e39ee9aef5350c193e660ca8f656fe07e9d67f77e65e29"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 66,
+          "digest": "8909582344447a1811369b3869b1ae2147403ce5c26d46bb206309c9a4e1243a"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 67,
+          "digest": "ba02f2785decee2feb7c08964b1810e90ce14c8231aea6d5c60ada1f9ac42e4c"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 68,
+          "digest": "99b042e97e61e77d867e546da6d735227bd37d0ea46ab0404a08aa437f35a7c7"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 69,
+          "digest": "f54bdb72078d94d52e327106cb69aa492723acf288a84a0202001d1d00bb250d"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 70,
+          "digest": "14b6289ec5ae5314658b2cae251352b25ed4f9414ec1ed0a77faf3ae39261403"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 71,
+          "digest": "306322a94ac5fdc525bf5d6f5cc3477fda64d952c850b31e127afb9f5a95767e"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 72,
+          "digest": "368c744eea2b51b26d9464a27c80e4abbc8080fe6aa1732c371b41370dbffd73"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 73,
+          "digest": "eed17efb4beee1c825010522fe54a8c8579733f0e5eb2c87018fd4d7283ff5d3"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 74,
+          "digest": "ac703b9737e08f6c3887420b0d95dbd193386e589af0f2aad783bb6a240e91ff"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 75,
+          "digest": "952487317f24903cc3b1f099e83e5e1369ffea57a555c16718dea45c93bb0296"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 76,
+          "digest": "bb5c7f4b9f522dae833973d7616423925fab7bb82c2646ef729137ca7ae62d41"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 77,
+          "digest": "67cdc03ae3359f84b3ec333e0a823300f997d02e8e8eefd49f9ac56b2427120b"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 78,
+          "digest": "fa236cfa0ed80912c94ebaf49b2b7c7738916e6bbde7acbdc8fcab4e73bad322"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 79,
+          "digest": "631a921e8403f34f01aa8ba94c088c829086dd7179102602067d8f4e97ee263a"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 80,
+          "digest": "0b8ac292152c05c129f6a983fb8959ca5bf37bd0e01d10ce790ee656a4d39ff8"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 81,
+          "digest": "dada267ad817ae5c07551274868a4482efd1de38eab2443a5e2265e4560f2fe5"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 82,
+          "digest": "c16713a113e5e57925813aeeb000c6e4bc89f20a92a72913afc65b287664182d"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 83,
+          "digest": "78117e374bf5d272397d359c4663f3294ecaa804dfba8d93f2875d5659853405"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 84,
+          "digest": "c7760be0e7f0f29322372b8370dd51ba5da291bc73d8d4df69662b332987fc60"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 85,
+          "digest": "0187a7e5cd6b9570cb6d388c8f2e8e93a5a9be6712915cdfe8c1e0fa29f0f231"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 86,
+          "digest": "f6a04be179d40f08a064928c4cfb7b2390d335441b1d9d50735dd162a49c2b29"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 87,
+          "digest": "56e8f3be7600e32e2bceab7774b2a43376df29a200e9323a0bca9caf678260ba"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 88,
+          "digest": "21c6111d47a2353809e1e27bcb16d4eed7fd589a88a6e95d6f172fab78182cf7"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 89,
+          "digest": "a30002e0668ff06cf6e0bc8ad52343052698b08f43879eede5d59ab9853758aa"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 90,
+          "digest": "b650ffe87bf94226591160affea1708dad1d5afd1e84e027f73abdf9026ba007"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 91,
+          "digest": "4ce33d3a3ebb3d70f9f744af604a6cd4af88b98a15ca8bd00761d35a531d3589"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 92,
+          "digest": "1b684d9c2d3144bb33789ee9ba224459f241bf768b9d2ac01b5f963813a0ed8c"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 93,
+          "digest": "98af321520f374c613f5eec874d396aedb49346b8578a3a6159d812121f28b60"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 94,
+          "digest": "a56dd733010e37467d321b4f1f04750d34e7b8fbf884af6e1c413fe0bf010580"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 95,
+          "digest": "52364b4d6fcfa56f2691d27d21bbb776b3f714edc6195bcaeca0134f9d987a68"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 96,
+          "digest": "e01beaf8508bcd11b8c011c921b32bef271e5acba1869daeaec236e19a95e701"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 97,
+          "digest": "0959b20fab4a86261bc48f492a39f493e3ae5a833de07bf5c461967522d4aa21"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 98,
+          "digest": "3663df199aa9d3f6f7a3606c83f6f1457917cc16c9a5aee59283dd52fd3b10aa"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 99,
+          "digest": "be4a4031a253933dbb2209bf19203fad9fe03d723e0e7b1c25e90e35188f232b"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 100,
+          "digest": "0004494921570d3b0e14499da7f27cb5b5c8f9bb5ffd21611f2cc9ed75183317"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 101,
+          "digest": "1d32dd323d686ea5873778827ba5605d42f4bfa290aeb2d6d66e839816893080"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 102,
+          "digest": "50a08bb8b9dc3e65fc1dd1e650fca4fa9ba102219f2fd8eb81ee60a0f6707873"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 103,
+          "digest": "6989a750500f7b597725ab07a671cd4cab665408aed309005112c1394f05e218"
+        },
+        {
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 104,
+          "digest": "928cb92bdc25df45143b54578acd6f06e15b6ab9300de5f5fc55067dddd86cb5"
+        }
+      ]
+    }
+  ],
+  "gpu_after_measurement": {
+    "time_unix_s": 1794427471.072582,
+    "monotonic_s": 27841814.200435285,
+    "returncode": 0,
+    "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 85",
+    "stderr": ""
+  },
+  "done": [
+    {
+      "event": "done",
+      "worker_id": 1,
+      "samples": [
+        {
+          "sample": "episode0-frame000",
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 5,
+          "digest": "15103cf4d8bca25c27f280aec33417f835c09a29e50613044a84670f8d8ffaa9",
+          "image_sha256": {
+            "left_camera": "44468431908d53c72444551598d23249f94f5ac1d21964b245afedd7ba3b08e2",
+            "right_camera": "edaec7522f82439dc63092d201394bdc02ff9cc7c58cde51b99e9b9c473f05ed",
+            "head_camera": "4900a5bb1cfe1324e43437d191cadd088915bb20213cfa71542eaf23b4ad382c",
+            "front_camera": "9b2a67771b00360f51499cf27a7cefc45f1db4daf35b873a29e3360d068b5a17"
+          }
+        },
+        {
+          "sample": "episode0-frame050",
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 55,
+          "digest": "b8856c71576ab02fce8471cd6143a963e0028d0d43e522a364381daf021a7f18",
+          "image_sha256": {
+            "left_camera": "08bbcf1a12a44384a25e983d62c91a1c2a3312567b322d6aa18145f9c907a998",
+            "right_camera": "dee5b0e61384dc9971b42bd2afc8484672323052a23d691d14e26f9810bdf8f2",
+            "head_camera": "610ae14affdee41e5ebbb3f0f69b6659a652ec2133c1cc9fd421a703a5aeeeb1",
+            "front_camera": "36e3066d85094b2ceaa3a5a250dd71534f7354d12956b37c91d3de37da315cc1"
+          }
+        },
+        {
+          "sample": "episode0-frame099",
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 104,
+          "digest": "928cb92bdc25df45143b54578acd6f06e15b6ab9300de5f5fc55067dddd86cb5",
+          "image_sha256": {
+            "left_camera": "71a05a455ce46f7ba95f4ecaaa62af51bf267b4e3c3e65a13c2e52d627c858df",
+            "right_camera": "15808416c4ab81ba9daecbcbd27a6af521f022dec0e5d190b228fdada243357d",
+            "head_camera": "1cd39bea63bd3a383ef152628fd9a3a2bba73721115fa4adb93ff48c027e2724",
+            "front_camera": "d6aca6da381627937240f777c28e2d8b8912980b80ce49e08c8f33a4e1860bee"
+          }
+        },
+        {
+          "sample": "episode1-frame000",
+          "worker_id": 1,
+          "scene_id": 1,
+          "episode_id": 1,
+          "generation": 2,
+          "frame_id": 0,
+          "digest": "744a9cfe063f8e7a559f902f558470763a6419c925d839b09d79ec65c4fa2cec",
+          "image_sha256": {
+            "left_camera": "c79bbfd0634099d594f19547be7ca5f08da63dbf5a207d58f259e5616a08ea9b",
+            "right_camera": "4f12f7078304675676404f864fe953c4423dca03aafbe3667dc58307c3f8321f",
+            "head_camera": "141068945318103e0cc912e3cb2fea44d5fc28af457d9f6e0082c2ce095157f1",
+            "front_camera": "218a3bd60e4036790ee0f9aa3bf1a570fbca2f8ac2bb0702b96a56c00979010c"
+          }
+        }
+      ]
+    },
+    {
+      "event": "done",
+      "worker_id": 0,
+      "samples": [
+        {
+          "sample": "episode0-frame000",
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 5,
+          "digest": "1233e15045f87446998fc6945e1fe54be47192a938a15d30ac1fc8d1309c5186",
+          "image_sha256": {
+            "left_camera": "43af062d3083203b4d1cdc39fc3b0d62ce5a558ab9dd888a8c029a1e808e0eec",
+            "right_camera": "0471b8f759414fc5816e1202139fc43232c161ef71cde73d3fbae0faa3da98a8",
+            "head_camera": "683e9119f16b58d5410ed975e0fabd7366d2ca36d6e99ca503a5e5605d86e02f",
+            "front_camera": "6cb4fd724a97f3c101f9f34380392f93c105b925022c76998eb9d25e9ed939c2"
+          }
+        },
+        {
+          "sample": "episode0-frame050",
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 55,
+          "digest": "99698584365cb976aa1022bfdcff6566692bf89efea18c60e1a124106b13d7d3",
+          "image_sha256": {
+            "left_camera": "bd2c7cc7f9da42cd76959a9d285154a68eda093850b1d9e44defd122192a4968",
+            "right_camera": "4bfe4fb490d2ead9b1f6a59070d8de837654a14873c4f59ef8e9d1fe2a67f9f2",
+            "head_camera": "40970a75141e097a73b3c3be0699cfb576beed5cd2a4ecfbaa49015d12cbe88e",
+            "front_camera": "7081b50b8420788b97a5c4506706ce707b60494d9502a018d1fc6567ada13527"
+          }
+        },
+        {
+          "sample": "episode0-frame099",
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 0,
+          "generation": 1,
+          "frame_id": 104,
+          "digest": "599f4b1f06d02f2d79e919d68fbe86614082736ab3b70d43fa55ce8e4aab493a",
+          "image_sha256": {
+            "left_camera": "75fc051b1922ae0fe66164068e92fdcc1d74ac2ab53860d1018dab56d3e974f1",
+            "right_camera": "1d0a5d2d27899eafae37db420083656377f8e59329adf0593b2a8067175d9227",
+            "head_camera": "634b22fd37de967cc2f9ed204511ce736cba123cab5631ff036e46126f7221c8",
+            "front_camera": "2f9aafa4396909ad8901883bf17c8ce1369a8e6ce6b4e5ddde8ffe6948bd3ff7"
+          }
+        },
+        {
+          "sample": "episode1-frame000",
+          "worker_id": 0,
+          "scene_id": 0,
+          "episode_id": 1,
+          "generation": 2,
+          "frame_id": 0,
+          "digest": "51ec2b4aaa9d0721999900a66cd04d67b30df29b53cfdad60550fd6995ef847d",
+          "image_sha256": {
+            "left_camera": "5b8ba59ee7ed6cf37af921c8a14f684fa431745a1120a35e6e25b367f057f585",
+            "right_camera": "eb1fb1ffe97bae9ae047b86a87c65f082c7d1f2dc2dcda4c3e937b9c6b11c072",
+            "head_camera": "ef8425672770ef344a748632ee404d46fe7fe4b23d2ab7941ac376a491c1d7b6",
+            "front_camera": "db170dd03210fd47bf9feb99f27d9664d1be497a56c2efb3ac63fc2f33d7dfd9"
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "elapsed_s": 12.217184871435165,
+    "images": 800,
+    "observations": 200,
+    "images_per_s": 65.4815334644292,
+    "latency": {
+      "count": 200,
+      "mean_s": 0.1206270743533969,
+      "p50_s": 0.11413799412548542,
+      "p95_s": 0.123125821352005
+    }
+  },
+  "gpu_samples": [
+    {
+      "time_unix_s": 1794427458.8594782,
+      "monotonic_s": 27841801.98733175,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 0",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427459.1752408,
+      "monotonic_s": 27841802.303094376,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427459.4760194,
+      "monotonic_s": 27841802.603873234,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427459.7930806,
+      "monotonic_s": 27841802.92093413,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 93",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427460.1648095,
+      "monotonic_s": 27841803.292663135,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 90",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427460.4627051,
+      "monotonic_s": 27841803.590558905,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427461.0697887,
+      "monotonic_s": 27841804.197642703,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 0",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427461.3675797,
+      "monotonic_s": 27841804.49543332,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427461.684326,
+      "monotonic_s": 27841804.812179826,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427462.0019686,
+      "monotonic_s": 27841805.129822105,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427462.3172042,
+      "monotonic_s": 27841805.445058078,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427462.6317391,
+      "monotonic_s": 27841805.75959323,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427462.9315732,
+      "monotonic_s": 27841806.059427224,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 98",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427463.2311985,
+      "monotonic_s": 27841806.359052483,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427463.5116415,
+      "monotonic_s": 27841806.639495783,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 91",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427463.812055,
+      "monotonic_s": 27841806.939909168,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427464.1108797,
+      "monotonic_s": 27841807.23873395,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427464.428721,
+      "monotonic_s": 27841807.556575023,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 96",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427464.710279,
+      "monotonic_s": 27841807.83813244,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 95",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427465.0075135,
+      "monotonic_s": 27841808.13536712,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 95",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427465.305318,
+      "monotonic_s": 27841808.433171723,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427465.6029809,
+      "monotonic_s": 27841808.730834424,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427465.9048855,
+      "monotonic_s": 27841809.032739654,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427466.4835384,
+      "monotonic_s": 27841809.611391976,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 0",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427466.7831788,
+      "monotonic_s": 27841809.911032684,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 100",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427467.0637126,
+      "monotonic_s": 27841810.191566348,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427467.3808203,
+      "monotonic_s": 27841810.508674078,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427467.6967742,
+      "monotonic_s": 27841810.824627627,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427468.0331883,
+      "monotonic_s": 27841811.161041904,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427468.3325036,
+      "monotonic_s": 27841811.46035725,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427468.649523,
+      "monotonic_s": 27841811.777376678,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427468.9660027,
+      "monotonic_s": 27841812.09385676,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 100",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427469.3017724,
+      "monotonic_s": 27841812.42962617,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427469.6373236,
+      "monotonic_s": 27841812.765177313,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 100",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427469.974072,
+      "monotonic_s": 27841813.10192543,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427470.2710931,
+      "monotonic_s": 27841813.398946937,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 100",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427470.5692985,
+      "monotonic_s": 27841813.69715236,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 94",
+      "stderr": ""
+    },
+    {
+      "time_unix_s": 1794427470.9076512,
+      "monotonic_s": 27841814.035504956,
+      "returncode": 0,
+      "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 6484, 49140, 100",
+      "stderr": ""
+    }
+  ],
+  "gpu_after_cleanup": {
+    "time_unix_s": 1794427472.315513,
+    "monotonic_s": 27841815.443366207,
+    "returncode": 0,
+    "stdout": "0, GPU-9c9d4cd7-338d-dd8e-ff4f-85959802fc6f, NVIDIA GeForce RTX 4090, 0, 49140, 7",
+    "stderr": ""
+  }
+}

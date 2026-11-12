@@ -1,0 +1,14 @@
+{
+  "ordinal": 0,
+  "item_id": "demo_clean-adjust_bottle-episodes-0000-0001",
+  "group_id": "demo_clean-adjust_bottle-episodes-0000-0001",
+  "payload": {
+    "task": "adjust_bottle",
+    "suite": "demo_clean",
+    "seed": 0,
+    "episode_start": 0,
+    "episodes": 1,
+    "total_episodes": 2
+  },
+  "expected_results": 1
+}

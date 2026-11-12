@@ -1,0 +1,57 @@
+{
+  "equal_work_and_scene_states": true,
+  "renderer_settings": {
+    "shader": "rt",
+    "spp": 32,
+    "path_depth": 8,
+    "denoiser": "oidn"
+  },
+  "independent": {
+    "elapsed_s": 10.657274845987558,
+    "observations": 200,
+    "images": 800,
+    "observations_per_s": 18.766523608547036,
+    "images_per_s": 75.06609443418814,
+    "device_memory": {
+      "mean_mib": 6480.0,
+      "peak_mib": 6480.0,
+      "samples": 37
+    },
+    "latencies": [
+      {
+        "count": 100,
+        "mean_s": 0.10653427444398403,
+        "p50_s": 0.10136040858924389,
+        "p95_s": 0.11062924191355705
+      },
+      {
+        "count": 100,
+        "mean_s": 0.10656183615326881,
+        "p50_s": 0.10137608647346497,
+        "p95_s": 0.11027025431394577
+      }
+    ]
+  },
+  "shared": {
+    "elapsed_s": 8.516463499516249,
+    "observations": 200,
+    "images": 800,
+    "observations_per_s": 23.483926163877808,
+    "images_per_s": 93.93570465551123,
+    "device_memory": {
+      "mean_mib": 3727.0,
+      "peak_mib": 3727.0,
+      "samples": 30
+    },
+    "latencies": [
+      {
+        "count": 200,
+        "mean_s": 0.08203120619058608,
+        "p50_s": 0.07951146923005581,
+        "p95_s": 0.08838673681020737
+      }
+    ]
+  },
+  "throughput_ratio_shared_over_independent": 1.2513732779566202,
+  "interpretation": "No IPC, no rollout. RT images may differ stochastically; inspect differences and previews before accepting image equivalence."
+}

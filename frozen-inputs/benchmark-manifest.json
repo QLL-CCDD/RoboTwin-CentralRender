@@ -1,0 +1,85 @@
+{
+  "schema_version": 3,
+  "supported_benchmarks": ["robotwin"],
+  "protocol_versions": {"robotwin": "robotwin2-v1"},
+  "supported_suites": {"robotwin": ["demo_clean", "demo_randomized"]},
+  "runtime": {
+    "benchmark_python": "env/bin/python",
+    "benchmark_root": "RoboTwin",
+    "deploy_policy_path": "RoboTwin/policy/Your_Policy/deploy_policy.yml",
+    "launcher_path": "roboscope_robotwin_launcher.py",
+    "seed_scanner_path": "roboscope_robotwin_seed_scan.py",
+    "seed_cache_dir": "seed-cache",
+    "seed_cache_archive_path": "seed-cache-v2.tar.gz",
+    "seed_cache_archive_sha256": "61a94edca4b2d9a7a75a9888ecc5df903e6ff956b2dada303c8eb6c38f1e5b80",
+    "seed_generation_root": "seed-generations",
+    "seed_generations": {
+      "demo_clean": "7b6622f7e8dc2272b53ea30bb5fef9acede91a6d5270b5487c10232a4250781d",
+      "demo_randomized": "6def2325fa12b2e932aab080ac5a218a38e5857b7ebf40c50aeab8811ce35892"
+    }
+  },
+  "defaults": {
+    "episodes": 100,
+    "episode_shard_size": 10,
+    "seed": 0,
+    "client_cpu_threads": 1,
+    "autotune_candidate_timeout_s": 1800,
+    "autotune_total_budget_s": 1800,
+    "ready_timeout_s": 300
+  },
+  "benchmark_protocols": {
+    "robotwin": {
+      "protocol_id": "robotwin2-native-step-lim-v2",
+      "robotwin_runtime_base_commit": "c3ddfa8b97d5519efa828b075999bd0006778e5e",
+      "robotwin_runtime_commit": "0fe7d15a86ae19d9411a52520683039cfc81d9ff",
+      "tasks": [
+        "adjust_bottle", "beat_block_hammer", "blocks_ranking_rgb", "blocks_ranking_size",
+        "click_alarmclock", "click_bell", "dump_bin_bigbin", "grab_roller", "handover_block",
+        "handover_mic", "hanging_mug", "lift_pot", "move_can_pot", "move_pillbottle_pad",
+        "move_playingcard_away", "move_stapler_pad", "open_laptop", "open_microwave",
+        "pick_diverse_bottles", "pick_dual_bottles", "place_a2b_left", "place_a2b_right",
+        "place_bread_basket", "place_bread_skillet", "place_burger_fries", "place_can_basket",
+        "place_cans_plasticbox", "place_container_plate", "place_dual_shoes", "place_empty_cup",
+        "place_fan", "place_mouse_pad", "place_object_basket", "place_object_scale",
+        "place_object_stand", "place_phone_stand", "place_shoe", "press_stapler",
+        "put_bottles_dustbin", "put_object_cabinet", "rotate_qrcode", "scan_object",
+        "shake_bottle_horizontally", "shake_bottle", "stack_blocks_three", "stack_blocks_two",
+        "stack_bowls_three", "stack_bowls_two", "stamp_seal", "turn_switch"
+      ],
+      "suites": {
+        "demo_clean": {
+          "task_config_path": "task_config/demo_clean.yml",
+          "seed_selection": {
+            "algorithm": "ascending-first-expert-valid-v1",
+            "candidate_start": 1000000,
+            "candidate_assignment": "per-task-shards-recorded-by-generation-v1",
+            "instruction_seed_limit": 100
+          },
+          "episodes_per_task": 100,
+          "action_horizon": {
+            "maximum": {"source": "task_config.step_lim"},
+            "schedule": "execute_policy_chunk_until_success_or_maximum"
+          },
+          "success_criterion": "task_env.check_success_after_each_action",
+          "aggregation": "macro_mean_of_50_task_success_rates"
+        },
+        "demo_randomized": {
+          "task_config_path": "task_config/demo_randomized.yml",
+          "seed_selection": {
+            "algorithm": "ascending-first-expert-valid-v1",
+            "candidate_start": 0,
+            "candidate_assignment": "shared-zero-based-sequence-per-task",
+            "instruction_seed_limit": 100
+          },
+          "episodes_per_task": 100,
+          "action_horizon": {
+            "maximum": {"source": "task_config.step_lim"},
+            "schedule": "execute_policy_chunk_until_success_or_maximum"
+          },
+          "success_criterion": "task_env.check_success_after_each_action",
+          "aggregation": "macro_mean_of_50_task_success_rates"
+        }
+      }
+    }
+  }
+}

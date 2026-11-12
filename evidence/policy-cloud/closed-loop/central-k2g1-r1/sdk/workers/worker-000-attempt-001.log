@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 581, in <module>
+    main()
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 574, in main
+    ).run(lambda item: run_task(args, item))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmark/worker.py", line 55, in run
+    result = evaluate(claimed.item)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 574, in <lambda>
+    ).run(lambda item: run_task(args, item))
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 204, in run_task
+    return _run_task_in_session(args, item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/roboscope-central-render-20261111/sdk-site/roboscope_kit/runtime/benchmarks/robotwin/worker.py", line 297, in _run_task_in_session
+    raise RuntimeError(
+RuntimeError: RoboTwin task adjust_bottle exited with -11; see /root/autodl-tmp/roboscope-central-render-20261111/closed-loop/central-k2g1-r1/sdk/native-logs/worker-000-demo_clean-adjust_bottle-episodes-0000-0001.log
+Native evaluator log tail:
+/root/autodl-tmp/roboscope-central-render-20261111/site/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+missing pytorch3d
+ROBOSCOPE_ROBOTWIN_ACTION_TYPE qpos

@@ -1,0 +1,219 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 24648,
+      "sha256": "8acd5a76e72c2be3796def325159d942c5720f96b288abeb9cf46a4ee0f8ac66"
+    },
+    {
+      "path": "POLICY_CLOSED_LOOP.md",
+      "bytes": 10472,
+      "sha256": "68c7def7bcd03ba1aea6286572fda8abfcec9fceaf2a2da7fdfeb97a1495ee70"
+    },
+    {
+      "path": "closed-loop-result.json",
+      "bytes": 10438,
+      "sha256": "66a0852851317e69b1d3cc04a09b85e604c6f137b6c95ab3dcebeb96b230687b"
+    },
+    {
+      "path": "closed-loop-provenance.json",
+      "bytes": 1716,
+      "sha256": "69099d5688ed88977ba31ca2662f9ce7ce82f1ebb279e776b4ec5f81c24b090f"
+    },
+    {
+      "path": "native_backend.py",
+      "bytes": 8749,
+      "sha256": "e0eee3fc3ea3aa253f76b9dd8f4e44c5e63300e23c78a5f860f8697eda0b5c1f"
+    },
+    {
+      "path": "native_entry.py",
+      "bytes": 1067,
+      "sha256": "527ad9706d8a10ad8e9f0753fe7117cbfad1d760413b3c84439c079d50063449"
+    },
+    {
+      "path": "central_launch.py",
+      "bytes": 2933,
+      "sha256": "7bdc7c7acd8f38b7da86c710d1502233417e3e33149d1eff401c3966ca4d2d25"
+    },
+    {
+      "path": "central_render_service.py",
+      "bytes": 10290,
+      "sha256": "7fae21faaf7dc21df8b37dff38e6ec9b8f7cb6abec4176c4d714bf572f827fe3"
+    },
+    {
+      "path": "robotwin_worker_adapter.py",
+      "bytes": 4023,
+      "sha256": "aa3583dfcc505faefd71bfb0f0a3036caf5234d55f0838a9d8fa42087018ac73"
+    },
+    {
+      "path": "robotwin_visual_replay.py",
+      "bytes": 6808,
+      "sha256": "ce1f75fd7d7116a3a6b38e3fdc66d897b6f9e2e1754309f8ff33cafed884a2ec"
+    },
+    {
+      "path": "visual_scene.py",
+      "bytes": 4878,
+      "sha256": "af310e4b23f25dd7ae9c47bd4b911893f40a217adda664a6a5a7d923b9215046"
+    },
+    {
+      "path": "replay_state.py",
+      "bytes": 6669,
+      "sha256": "df92bfced66d61938a512eadb5887d5803730dd074744d9cad558d559fe813c2"
+    },
+    {
+      "path": "render_compare.py",
+      "bytes": 17262,
+      "sha256": "ec706a03f656161bfd1f43fccbbb43859cc900635031ffa1a58f7d47104d5277"
+    },
+    {
+      "path": "policy_run.py",
+      "bytes": 3179,
+      "sha256": "2b3eb37c35776468280caa63b25929624bdf4a227fc77cf8349919fc2f5d869f"
+    },
+    {
+      "path": "policy_trace.py",
+      "bytes": 5748,
+      "sha256": "5d66978e4b32947be3adaf4be3870f1e3303b5cf34b14fe36bad3b9c0289f29c"
+    },
+    {
+      "path": "run_policy_arm.sh",
+      "bytes": 1951,
+      "sha256": "37a9cff49f0685c576d158c931dc52ec0acbd44060fe6b9e04b4d07f19f48899"
+    },
+    {
+      "path": "analyze_policy_pair.py",
+      "bytes": 9212,
+      "sha256": "f7892bd63083e9984defcb1a59b576fa8a6937159a48ec772199f856d9d9e6ba"
+    },
+    {
+      "path": "prepare_native_manifest.py",
+      "bytes": 1447,
+      "sha256": "73062944282653981b9cd33f8d1e3c731e2799f28bd23a3ba1b7ef993ec81180"
+    },
+    {
+      "path": "stage_public_runtime.py",
+      "bytes": 3703,
+      "sha256": "dbb390d5a14803958a87bdbeab36afe8799154105452b792b5384482f8aa604a"
+    },
+    {
+      "path": "bootstrap_control.py",
+      "bytes": 2723,
+      "sha256": "2dd5569b36df1c2701b4e587ccfa5783ce253ef0305f4965ddc65e0d4bb603fc"
+    },
+    {
+      "path": "fetch_replay_assets.py",
+      "bytes": 7904,
+      "sha256": "2956895df396c5a5031fdf6e39668f761279e76521569b19ae9a55f652ea3c44"
+    },
+    {
+      "path": "fetch_native_metadata.py",
+      "bytes": 724,
+      "sha256": "dd5328c8af1fd814dd869b0710dbc36ec096577d866a7a33e456f553f485b316"
+    },
+    {
+      "path": "fetch_policy_metadata.py",
+      "bytes": 3177,
+      "sha256": "94c4cb5d33cd3b0f1d77021d1ca7bb9d1f0401e83b09963c45880d2a308a80fb"
+    },
+    {
+      "path": "campaign-tools/experiment_subset.py",
+      "bytes": 7798,
+      "sha256": "3783966e177c2c34ee8865ab16d7931af9fa142013727f8a1ab1702e3482f272"
+    },
+    {
+      "path": "campaign-tools/profile_policy.py",
+      "bytes": 3424,
+      "sha256": "761312aef11c5cb0075cd563027c8be298e0af744f6d1b8c35b8707600ca4ac5"
+    },
+    {
+      "path": "campaign-tools/monitor_run.py",
+      "bytes": 9129,
+      "sha256": "5ff6514da47000582cdd907e11842d69e30f5ea8cebc652dc39b8ef3395b91a5"
+    },
+    {
+      "path": "policy-source/starvla_base_assets.py",
+      "bytes": 6261,
+      "sha256": "72813984d5514cd6d77c05de645473cad1d8b206cabd59a6ca4a4ccc48acfa52"
+    },
+    {
+      "path": "policy-source/starvla_full_checkpoint.py",
+      "bytes": 9689,
+      "sha256": "a693edfa76505b42a9e53d297331d53cb1e14ad0cb22cfdc081c2cc51cd501fb"
+    },
+    {
+      "path": "policy-source/starvla_policy.py",
+      "bytes": 20064,
+      "sha256": "9feffa1c518e1e02095ddd1f56d43bf2b1facbc0662aba13b6c554330113180a"
+    },
+    {
+      "path": "references/robotwin-c3ddfa8-create-actor.py",
+      "bytes": 21406,
+      "sha256": "6bababee8e70da2460b2bbf47d3b5fbb20ccf73368782a7be596a63c962dce6d"
+    },
+    {
+      "path": "references/robotwin-c3ddfa8-camera.py",
+      "bytes": 25220,
+      "sha256": "e4d17e99c8a68f44a12bef248a2164f52206efeaf24168172b778cc1e32832dd"
+    },
+    {
+      "path": "roboscope_robotwin_launcher.py",
+      "bytes": 48472,
+      "sha256": "adf5274bb04afb626865069a5bf1f203d26a6369ac82843db66b688c7e876b08"
+    },
+    {
+      "path": "replay-assets-manifest.json",
+      "bytes": 21170,
+      "sha256": "057f4280b4808030a6c2ba3506aa342a4f0a5fdfda747963a8791b854d1cf8b1"
+    },
+    {
+      "path": "frozen-inputs/benchmark-manifest.json",
+      "bytes": 4036,
+      "sha256": "c6622746a2836d35d8c9f93aba84e8cf856d9d273f8a7b1ba8d1102317356ea0"
+    },
+    {
+      "path": "frozen-inputs/roboscope_robotwin_seed_scan.py",
+      "bytes": 14623,
+      "sha256": "95d27d571979854877bb3a7f460a57de14a34daeb96a49881b12779ab9e66856"
+    },
+    {
+      "path": "frozen-inputs/seed-cache-v2.tar.gz",
+      "bytes": 258726,
+      "sha256": "61a94edca4b2d9a7a75a9888ecc5df903e6ff956b2dada303c8eb6c38f1e5b80"
+    },
+    {
+      "path": "closed-loop-policy.json",
+      "bytes": 299,
+      "sha256": "edeb7184b993630243564d0a7992e08de7997b979989aba0cfc57855f9435ab5"
+    },
+    {
+      "path": "policy-runtime/experiment-manifest.json",
+      "bytes": 4815,
+      "sha256": "b4b97cd77c681a083e672e2dfe3ad12d4fe5a618982ca4d42634a15166aec409"
+    },
+    {
+      "path": "wheels/roboscope_kit-0.8.0b31-py3-none-any.whl",
+      "bytes": 207125,
+      "sha256": "3917cf50814410b47e47cad8d1345721d54fe40450b429bdc32e893fca2a97f5"
+    },
+    {
+      "path": "model-metadata/config.yaml",
+      "bytes": 1447,
+      "sha256": "1c0cf1828c4cff02e6f8073ac0ec54a7423f7b1f249df057be6287c8ab3fe8a5"
+    },
+    {
+      "path": "model-metadata/dataset_statistics.json",
+      "bytes": 5154,
+      "sha256": "00cff63dc4e97a2d65ec2033a8df9c45e09a403effd76e5d5d54bff8d191f097"
+    }
+  ],
+  "excluded": [
+    "credentials",
+    "model weights",
+    "mesh/texture assets",
+    "large dependency wheels",
+    "raw execution logs"
+  ],
+  "raw_evidence_archive": "evidence/policy-closed-loop-evidence.tar.gz",
+  "raw_evidence_sha256": "d8eb07c38b16bead338386084f8486e87208fa3fdb0214f5ca7ffa875a5dec0d",
+  "note": "All completed runs are reported, including the already-completed unpaired native sensitivity run. Failed attempts remain separate."
+}

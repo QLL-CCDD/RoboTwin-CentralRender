@@ -1,0 +1,9 @@
+{
+  "schema_version": 2,
+  "command": [
+    "/root/miniconda3/envs/starVLA/bin/python",
+    "/root/autodl-tmp/roboscope-central-render-20261111/campaign-tools/profile_policy.py",
+    "/root/autodl-tmp/roboscope-central-render-20261111/policy-source/starvla_policy.py"
+  ],
+  "cwd": "/root/starVLA"
+}

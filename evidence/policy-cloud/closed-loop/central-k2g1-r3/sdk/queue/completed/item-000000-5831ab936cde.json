@@ -1,0 +1,26 @@
+{
+  "item_id": "demo_clean-adjust_bottle-episodes-0000-0001",
+  "group_id": "demo_clean-adjust_bottle-episodes-0000-0001",
+  "worker_id": 0,
+  "records": [
+    {
+      "record_id": "demo_clean-adjust_bottle-episode-0000",
+      "success": true,
+      "steps": 110,
+      "elapsed_s": 7.562112629413605,
+      "metadata": {
+        "task": "adjust_bottle",
+        "suite": "demo_clean",
+        "seed": 1000000,
+        "episode_index": 0
+      }
+    }
+  ],
+  "metadata": {
+    "task": "adjust_bottle",
+    "suite": "demo_clean",
+    "episode_start": 0,
+    "episode_stop": 1,
+    "elapsed_s": 10.551889721304178
+  }
+}

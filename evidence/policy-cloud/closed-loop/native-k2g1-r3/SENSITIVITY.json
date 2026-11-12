@@ -1,0 +1,5 @@
+{
+  "status": "retained_completed_sensitivity_evidence",
+  "paired": false,
+  "reason": "Completed before stop instruction was processed; all results retained and reported in chronological order."
+}

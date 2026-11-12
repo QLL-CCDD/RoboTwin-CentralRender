@@ -1,0 +1,391 @@
+{
+  "commit": "c3ddfa8b97d5519efa828b075999bd0006778e5e",
+  "files": [
+    {
+      "path": "envs/_GLOBAL_CONFIGS.py",
+      "bytes": 1557,
+      "sha256": "f3640d4d132531e1c4a72f1f27dd6312c95aadcb72ab43c638458cf994b5a4d4"
+    },
+    {
+      "path": "envs/__init__.py",
+      "bytes": 52,
+      "sha256": "7c4063c61bfe1789dcc933c43923889a3f9e576ddb4f59a3599745df27e3adfc"
+    },
+    {
+      "path": "envs/_base_task.py",
+      "bytes": 69247,
+      "sha256": "448f7152b65cb9102217cf5463aa821d72810ca56f63d5a797ec7bd43e23e101"
+    },
+    {
+      "path": "envs/adjust_bottle.py",
+      "bytes": 2451,
+      "sha256": "4f76b35e718a4c5a364dae564d35d68268755818d9062e3ed4ff393d158d0548"
+    },
+    {
+      "path": "envs/beat_block_hammer.py",
+      "bytes": 3012,
+      "sha256": "90269f15f9ce274fb5bcad703c47b0b552ff5a2f0a3ff62d12dbe9a553018014"
+    },
+    {
+      "path": "envs/blocks_ranking_rgb.py",
+      "bytes": 5916,
+      "sha256": "0e632df38d9024e7952c0df7a1f59e3d011b537724e6e6588455dee4d4e6074b"
+    },
+    {
+      "path": "envs/blocks_ranking_size.py",
+      "bytes": 6026,
+      "sha256": "18ddb8ca5465f450ef03db292bcfc22e8e795fcb397f104fc24213a5fa063696"
+    },
+    {
+      "path": "envs/camera/__init__.py",
+      "bytes": 22,
+      "sha256": "c666ede4ebee6fd286a444c8fa966e1bf2034a2fd1fe1a04c7f8a55fd0ba6df6"
+    },
+    {
+      "path": "envs/camera/camera.py",
+      "bytes": 25220,
+      "sha256": "e4d17e99c8a68f44a12bef248a2164f52206efeaf24168172b778cc1e32832dd"
+    },
+    {
+      "path": "envs/click_alarmclock.py",
+      "bytes": 3437,
+      "sha256": "f69a1ad4f1b483ab0dd82d8bad872e12047ed8d898f1fa4058de9e382ddeef49"
+    },
+    {
+      "path": "envs/click_bell.py",
+      "bytes": 3040,
+      "sha256": "a0b7673e6ef842738999acbccaaa3d01f86d62a147bb8387cb92163218db48ac"
+    },
+    {
+      "path": "envs/dump_bin_bigbin.py",
+      "bytes": 5784,
+      "sha256": "3bd57fe9172d59731db1ccf1bc9605dfe3ef08a0f7224edc720ea4812c214611"
+    },
+    {
+      "path": "envs/grab_roller.py",
+      "bytes": 1993,
+      "sha256": "f0e1864199605acf59cf8982dded05129d873bb3934f200e47abafd918d41c89"
+    },
+    {
+      "path": "envs/handover_block.py",
+      "bytes": 3818,
+      "sha256": "5439712296d7e143d41f8e78b4ab86cd4fad7fb98f40f5f5abb067a462d17650"
+    },
+    {
+      "path": "envs/handover_mic.py",
+      "bytes": 4224,
+      "sha256": "41ed0f2561cc8f1ae2449ba405decd4f5d7e3b80243b60921598657551891b17"
+    },
+    {
+      "path": "envs/hanging_mug.py",
+      "bytes": 3591,
+      "sha256": "8793ed6be6a80b18a10690767a1910c3c49a7a9e4887ecbdd48a191ca3e03034"
+    },
+    {
+      "path": "envs/lift_pot.py",
+      "bytes": 2354,
+      "sha256": "347e06f3f9f82b1bc35882671bbbdea50b6e3c77fff0f7fb4449b024875402eb"
+    },
+    {
+      "path": "envs/move_can_pot.py",
+      "bytes": 4043,
+      "sha256": "ea838bb2502199610eea6cc058a4ba5fc7abb01c3d8ee0705c44854ddca20186"
+    },
+    {
+      "path": "envs/move_pillbottle_pad.py",
+      "bytes": 3545,
+      "sha256": "a5db7c65db15c2273d1f9e99fab8fc00533a27b740a45161c9402d43b8aa6824"
+    },
+    {
+      "path": "envs/move_playingcard_away.py",
+      "bytes": 2290,
+      "sha256": "edf557d5a29ab724860651e24398e03c400a71e4c82bdbf2cedd3958fbfb6cc2"
+    },
+    {
+      "path": "envs/move_stapler_pad.py",
+      "bytes": 4057,
+      "sha256": "c2b7aa7bf4e896afc392a8cf1ac107b6982088a459c716de005a3412fcdedd6d"
+    },
+    {
+      "path": "envs/open_laptop.py",
+      "bytes": 2367,
+      "sha256": "b826d4f36513dba6df3c17b65f1251bf3dbe2994857ba672f4d06c5900c0cac0"
+    },
+    {
+      "path": "envs/open_microwave.py",
+      "bytes": 3472,
+      "sha256": "ad679b7753fc50487ba8034570e3b94aa7bfc84756048b94580fa3d2516a1bd0"
+    },
+    {
+      "path": "envs/pick_diverse_bottles.py",
+      "bytes": 3672,
+      "sha256": "95ebb80fa96eafd0b7ff5518251c2a7aa42f22ef9b7cfdda4e80eac511f06151"
+    },
+    {
+      "path": "envs/pick_dual_bottles.py",
+      "bytes": 3599,
+      "sha256": "422f23510f3662405dcb5518d1ebe8a0270935849a4b02a2585615ff7bffc4ef"
+    },
+    {
+      "path": "envs/place_a2b_left.py",
+      "bytes": 5751,
+      "sha256": "8603f48febcb5b5b534dc7d973ac4651264ebb9c6fb60f199d4d2adc9e14d7cd"
+    },
+    {
+      "path": "envs/place_a2b_right.py",
+      "bytes": 5890,
+      "sha256": "1225e32207912e15855deff8aa9d4fd2cf425b4c5eeaeaf1eb795daaba4ac6ae"
+    },
+    {
+      "path": "envs/place_bread_basket.py",
+      "bytes": 7731,
+      "sha256": "50c433166301a7f0ac8615d041cc51aa673746b5b7d6fcc0b6f29790c560c053"
+    },
+    {
+      "path": "envs/place_bread_skillet.py",
+      "bytes": 4197,
+      "sha256": "b1fa08d7f23d8bcd933ea7d64904fea17f67dbe58101c66e42c6addbfdbbcd73"
+    },
+    {
+      "path": "envs/place_burger_fries.py",
+      "bytes": 4540,
+      "sha256": "19e8a3428e677839e7e51ae6488752acc940a7d2bc8ee54587c354b422ba6d2c"
+    },
+    {
+      "path": "envs/place_can_basket.py",
+      "bytes": 6339,
+      "sha256": "9f24e5ac98146babe93c68cb46baaf1d7bf21e38dbfc7c0b29e7020ae764e7f0"
+    },
+    {
+      "path": "envs/place_cans_plasticbox.py",
+      "bytes": 4579,
+      "sha256": "5d004110de53d95c7a6fc7721f9136d96b9792a61b97686f7b5489ff7ec48a5f"
+    },
+    {
+      "path": "envs/place_container_plate.py",
+      "bytes": 3490,
+      "sha256": "7a288f27f61e96fe905d5cfb80eb0a4fd8e490c829f2f02149951266012a3aee"
+    },
+    {
+      "path": "envs/place_dual_shoes.py",
+      "bytes": 5664,
+      "sha256": "f35c4a133e1de567b274cbd15f158f585eb05e32aeb05be88839d249d0d7ab9e"
+    },
+    {
+      "path": "envs/place_empty_cup.py",
+      "bytes": 3386,
+      "sha256": "424bbd61f990ebfffb283eb152d17103c2a990edd20f68229203a96a2fd4d581"
+    },
+    {
+      "path": "envs/place_fan.py",
+      "bytes": 4163,
+      "sha256": "7e8be55f1f26ce6128c254b50464edc438a96f272581ccb19827521bc679c237"
+    },
+    {
+      "path": "envs/place_mouse_pad.py",
+      "bytes": 4291,
+      "sha256": "369bf399d0fd6a2687abb7d80b8feb6101c8b5405d33f9de63bbbdaaea7b73d0"
+    },
+    {
+      "path": "envs/place_object_basket.py",
+      "bytes": 6249,
+      "sha256": "e809bd3eabac48cb34589f164291b04b9e2fbf6cc1ebd8c4024c0af8e265ed48"
+    },
+    {
+      "path": "envs/place_object_scale.py",
+      "bytes": 4807,
+      "sha256": "555f04a2a2fa0a41ad8dfccd771579d1cc2686fc65ad6c7ef297c98f4c9ba310"
+    },
+    {
+      "path": "envs/place_object_stand.py",
+      "bytes": 4938,
+      "sha256": "0b4db3a679230ff3732b9bfdfcfaba3437bd5f942043de9921240118849e3fe8"
+    },
+    {
+      "path": "envs/place_phone_stand.py",
+      "bytes": 3434,
+      "sha256": "719cf84ebf997b8d15d0ef9f997d439da62d64067a292b6008433da3536a0216"
+    },
+    {
+      "path": "envs/place_shoe.py",
+      "bytes": 3550,
+      "sha256": "9e9b29eaca488f41617127070add87f33900c37db0d286a4c4b08e2138cbfc6f"
+    },
+    {
+      "path": "envs/press_stapler.py",
+      "bytes": 2163,
+      "sha256": "69274cf09aa1d4ba51469621461683b5225b8f98cf7837f821e848196ce51f9c"
+    },
+    {
+      "path": "envs/put_bottles_dustbin.py",
+      "bytes": 5950,
+      "sha256": "1c03a4b227daa7d285fa366944f1f75773e32dc6a7b73ab693217a13fcd42795"
+    },
+    {
+      "path": "envs/put_object_cabinet.py",
+      "bytes": 4490,
+      "sha256": "1de25dd513b4ad29e158440eefb28fb050be95d557c7df1b87578168ff35a7b2"
+    },
+    {
+      "path": "envs/robot/__init__.py",
+      "bytes": 44,
+      "sha256": "dd712aa0e0201076c7b9e751581e108081a08fdd927270390656c9a2e3d7cbc7"
+    },
+    {
+      "path": "envs/robot/ik.py",
+      "bytes": 7,
+      "sha256": "0e478b525adbeeb1b1de7674e1a00353d1d75eee666537ff0c1c13d3187322fe"
+    },
+    {
+      "path": "envs/robot/planner.py",
+      "bytes": 17282,
+      "sha256": "f1012345542483f4cfbac64880a266b7ee0d4a64362d5ec6fd6985ed9c34b564"
+    },
+    {
+      "path": "envs/robot/robot.py",
+      "bytes": 31721,
+      "sha256": "3dcd80acc8cab489a4c5edb507cc460dab1724be0226b8d5c4c1b218dee605cb"
+    },
+    {
+      "path": "envs/rotate_qrcode.py",
+      "bytes": 2726,
+      "sha256": "382165e22a2a52a73958ff69c662e57a4d1f0bc8cb7cecf3e9dd1f5ba11defa9"
+    },
+    {
+      "path": "envs/scan_object.py",
+      "bytes": 4218,
+      "sha256": "860dfe2cc86d180096089bc87502c7904f7ce2efb64fb32620c1720ca0178c2b"
+    },
+    {
+      "path": "envs/shake_bottle.py",
+      "bytes": 3152,
+      "sha256": "2e37395b302eb37ecac39b2a676ea119c4bf7a1dcc9e6df75cd683a5cf37b026"
+    },
+    {
+      "path": "envs/shake_bottle_horizontally.py",
+      "bytes": 3797,
+      "sha256": "def5f373a3a289c946bb32c6d01145672432dbe1d2b71a10992e5280d5f8dead"
+    },
+    {
+      "path": "envs/stack_blocks_three.py",
+      "bytes": 5007,
+      "sha256": "b19f1f1c5a3a2c7c7312a4e1b2e577ccd269ebb0c444c287fecbc16ff5b47fb9"
+    },
+    {
+      "path": "envs/stack_blocks_two.py",
+      "bytes": 4492,
+      "sha256": "4e92a679cb5be4ef87a1b842432c930560a2c9b539a4cbcee0161e2b2112f526"
+    },
+    {
+      "path": "envs/stack_bowls_three.py",
+      "bytes": 4660,
+      "sha256": "95848e9c2987e64fef2cfd928128d7a19967ba600c57dc7a6b7f1c9ea5b358e6"
+    },
+    {
+      "path": "envs/stack_bowls_two.py",
+      "bytes": 4457,
+      "sha256": "3e3217c277d84a0838739d55a0061a9acb3315240b5a99c6607d9637ea719637"
+    },
+    {
+      "path": "envs/stamp_seal.py",
+      "bytes": 4456,
+      "sha256": "28a159e27aa76459355fa1f81e962815c62ee6435727039d73664b7eb6731b82"
+    },
+    {
+      "path": "envs/turn_switch.py",
+      "bytes": 1433,
+      "sha256": "035e108a861f94f61369ba2221431e123b7ac231e8de683d8bf38090bf021f9a"
+    },
+    {
+      "path": "envs/utils/__init__.py",
+      "bytes": 292,
+      "sha256": "d3a670160e83b2467c232f5cbbfffcfc987e3bf0a03617fcf853989e4416d979"
+    },
+    {
+      "path": "envs/utils/action.py",
+      "bytes": 2862,
+      "sha256": "7bf69e226b98ae7f5b21a523f722271530885cf4778873900f3564003a9b591d"
+    },
+    {
+      "path": "envs/utils/actor_utils.py",
+      "bytes": 6282,
+      "sha256": "252d43c526b23adcf4ba549fec64a49f037fc4a24e9edd1998e5f60d3e13d5d9"
+    },
+    {
+      "path": "envs/utils/create_actor.py",
+      "bytes": 21406,
+      "sha256": "6bababee8e70da2460b2bbf47d3b5fbb20ccf73368782a7be596a63c962dce6d"
+    },
+    {
+      "path": "envs/utils/get_camera_config.py",
+      "bytes": 497,
+      "sha256": "d3a167ed2dd6785d42b81ec5cfd244b93b1e327e01439af9d76120acbb69246e"
+    },
+    {
+      "path": "envs/utils/images_to_video.py",
+      "bytes": 1495,
+      "sha256": "5abee46ae85afc47005acb964bfff2501fabd9b593b2cba8b851585c93619cd7"
+    },
+    {
+      "path": "envs/utils/parse_hdf5.py",
+      "bytes": 1817,
+      "sha256": "0a7c47157e38ad742aa8ef10192021264e66fbae03344b12be526262c0e13c51"
+    },
+    {
+      "path": "envs/utils/pkl2hdf5.py",
+      "bytes": 3575,
+      "sha256": "e119b4093c25f881c535a041bf1895e182ba00564d6ca57f6d6fe4fb62b2666c"
+    },
+    {
+      "path": "envs/utils/rand_create_actor.py",
+      "bytes": 4852,
+      "sha256": "6c409ff1d97528b9dc654d39cc34683f51af6e797c1c5d92c076c29c09f9bedb"
+    },
+    {
+      "path": "envs/utils/rand_create_cluttered_actor.py",
+      "bytes": 8999,
+      "sha256": "87199b296e199b91701365f94247ee593946eb6b4567ba2e4f7af6960560d41a"
+    },
+    {
+      "path": "envs/utils/save_file.py",
+      "bytes": 1038,
+      "sha256": "8922f52adca31b73ac30701624eb0d917cb94b8703630bfdd371db39099284c9"
+    },
+    {
+      "path": "envs/utils/transforms.py",
+      "bytes": 19015,
+      "sha256": "b8ec2a27275868dc476ca1e2c2c8264fdc2f8a907278ed531b53d13e82b338ca"
+    },
+    {
+      "path": "task_config/_camera_config.yml",
+      "bytes": 154,
+      "sha256": "dc80a40552e0fad25d58cf0141302ceba66d22409b5091bed235ad2f10cbce7f"
+    },
+    {
+      "path": "task_config/_config_template.yml",
+      "bytes": 708,
+      "sha256": "4fd45b0a1013fa09dddf8c954c2740f80786b027c1d42aae5bf47875209e7bbf"
+    },
+    {
+      "path": "task_config/_embodiment_config.yml",
+      "bytes": 285,
+      "sha256": "b0a198ff27bf6bf6b73162d2d1adafc7e73fcdf53f39943e67e40fee15bd83fa"
+    },
+    {
+      "path": "task_config/_eval_step_limit.yml",
+      "bytes": 1077,
+      "sha256": "41c62bd26184977bae45aee555edd0cc21de5cddf560c2595921fc23a1e3b551"
+    },
+    {
+      "path": "task_config/demo_clean.yml",
+      "bytes": 873,
+      "sha256": "8ee5d0d07daecf7599b8d89b44776b700c7c60da24cd6317e176e6798d8cb11e"
+    },
+    {
+      "path": "task_config/demo_randomized.yml",
+      "bytes": 879,
+      "sha256": "a5a371f17188f602ff611154efce5299836a01a5e16d4b0f9b4bdbf6c714eb89"
+    }
+  ],
+  "elapsed_s": 16.94480199999998
+}

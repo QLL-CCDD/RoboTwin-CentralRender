@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "episodes": 2,
+  "successes": 2,
+  "failures": 0,
+  "total_steps": 234,
+  "total_episodes": 2,
+  "success_rate": 1.0,
+  "completed_items": 2
+}

@@ -1,0 +1,36 @@
+11/12 [12:39:49] WARNING  | >>  DataConfig for                    registry.py:70
+                          robot_type='ur5_robochallenge' has no                 
+                          `embodiment_tag` classvar; defaulting                 
+                          to EmbodimentTag.NEW_EMBODIMENT.                      
+                 WARNING  | >>  DataConfig for                    registry.py:70
+                          robot_type='arx5_robochallenge' has no                
+                          `embodiment_tag` classvar; defaulting                 
+                          to EmbodimentTag.NEW_EMBODIMENT.                      
+                 WARNING  | >>  DataConfig for                    registry.py:70
+                          robot_type='dosw1_robochallenge' has no               
+                          `embodiment_tag` classvar; defaulting                 
+                          to EmbodimentTag.NEW_EMBODIMENT.                      
+11/12 [12:39:57] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/root/autodl-tmp/roboscope-central                   
+                          -render-20261111/models/starvla-rob                   
+                          otwin-native/checkpoints/steps_4000                   
+                          0_pytorch_model.pt`                                   
+                 INFO     | >> [*]  normalised config from    share_tools.py:522
+                          version_id=None to '0.21'                             
+                 INFO     | >> PolicyNormProcessor  policy_norm_processor.py:316
+                          ready:                                                
+                          robot_type=robotwin,                                  
+                          unnorm_key=new_embodiment                             
+                          ,                                                     
+                          action_keys=['action.left                             
+                          _joints',                                             
+                          'action.right_joints',                                
+                          'action.left_gripper',                                
+                          'action.right_gripper']                               
+                          (dims=[6, 6, 1, 1]),                                  
+                          state_keys=['state.left_j                             
+                          oints',                                               
+                          'state.right_joints',                                 
+                          'state.left_gripper',                                 
+                          'state.right_gripper']                                

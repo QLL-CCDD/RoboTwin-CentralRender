@@ -1,0 +1,4 @@
+/root/autodl-tmp/roboscope-central-render-20261111/site/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+missing pytorch3d
+ROBOSCOPE_ROBOTWIN_ACTION_TYPE qpos

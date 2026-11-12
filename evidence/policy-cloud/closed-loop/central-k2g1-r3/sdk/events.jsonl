@@ -1,0 +1,8 @@
+{"phase": "server-starting", "type": "phase"}
+{"restarted_replicas": [], "reused_replicas": 0, "started_replicas": 1, "stopped_replicas": 0, "target_replicas": 1, "type": "inference-pool"}
+{"phase": "workers-starting", "type": "phase"}
+{"phase": "evaluation", "type": "phase"}
+{"completed_items": 0, "episodes": 0, "failures": 0, "state": "running", "success_rate": 0.0, "successes": 0, "total_episodes": 2, "total_steps": 0, "type": "progress"}
+{"completed_items": 1, "episodes": 1, "failures": 0, "state": "running", "success_rate": 1.0, "successes": 1, "total_episodes": 2, "total_steps": 110, "type": "progress"}
+{"completed_items": 2, "episodes": 2, "failures": 0, "state": "complete", "success_rate": 1.0, "successes": 2, "total_episodes": 2, "total_steps": 234, "type": "progress"}
+{"completed_items": 2, "elapsed_s": 12.05579636991024, "episodes": 2, "episodes_per_s": 0.1658953036890827, "failures": 0, "state": "complete", "steps_per_s": 19.409750531622674, "success_rate": 1.0, "successes": 2, "total_episodes": 2, "total_steps": 234, "type": "complete"}

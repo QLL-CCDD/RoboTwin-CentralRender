@@ -1,0 +1,366 @@
+{
+  "source": "Pinned official RoboTwin asset archives; bounded HTTP ZIP member reads",
+  "files": [
+    {
+      "path": "assets/embodiments/aloha-agilex/config.yml",
+      "bytes": 1210,
+      "sha256": "a4f043d2d4b44cca5ec47fb498a3194da3f87ff9530dcbfdcee1539a44423d57",
+      "archive_member": "embodiments/aloha-agilex/config.yml",
+      "compressed_bytes": 500,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/arx5_description_isaac.urdf",
+      "bytes": 61574,
+      "sha256": "097c59fb19a7b482249c6097df8319586ea7cfd268c015516f103b289a7e761a",
+      "archive_member": "embodiments/aloha-agilex/urdf/arx5_description_isaac.urdf",
+      "compressed_bytes": 6028,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/back_link7.STL",
+      "bytes": 1445784,
+      "sha256": "baea38e3edf22c80d6cbe813bfdc01439dc51406fa176c1f62732fba380267c5",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/back_link7.STL",
+      "compressed_bytes": 422151,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/back_link7.dae",
+      "bytes": 1836184,
+      "sha256": "5ef2f06e003b0463868460504951fc864130779cc35e87bb54a8ad7c524bc513",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/back_link7.dae",
+      "compressed_bytes": 456087,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_arm.STL",
+      "bytes": 90384,
+      "sha256": "3d6524754df3c5b50ea4196c473b447cd7dc0c00afb9a31e7db3bb6d1cd52c60",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_arm.STL",
+      "compressed_bytes": 20797,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_arm.dae",
+      "bytes": 103529,
+      "sha256": "cfe3f44bf9860d72acac2abd21a50422d72efd4de6fac72af44e02b2ea6a52df",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/base_arm.dae",
+      "compressed_bytes": 26235,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box1_Link.STL",
+      "bytes": 71584,
+      "sha256": "e48fbe760dc7c1d98c3e655ca5788dd09a1c1c6544b1ad3f0aeaaaa2c8121917",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box1_Link.STL",
+      "compressed_bytes": 16151,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box2_Link.dae",
+      "bytes": 215110363,
+      "sha256": "511af26229e2ec9c9c014c12b04bfda50253b800dbaa129aca69c2c2b81ecc74",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/box2_Link.dae",
+      "compressed_bytes": 39995364,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_base_link.STL",
+      "bytes": 63384,
+      "sha256": "d4cf9f1b01727e55283b7ac1c311eca1e807908e2d2c8e9e43bf7f6936b6e847",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_base_link.STL",
+      "compressed_bytes": 12130,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link1.dae",
+      "bytes": 43398455,
+      "sha256": "0692aa9f29f5d3aa9c21b81bff671e22128ae9110f3af809196a0d1f9a1b2e02",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link1.dae",
+      "compressed_bytes": 10328508,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link2.dae",
+      "bytes": 43398455,
+      "sha256": "0692aa9f29f5d3aa9c21b81bff671e22128ae9110f3af809196a0d1f9a1b2e02",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/camera_link2.dae",
+      "compressed_bytes": 10328508,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/castor.dae",
+      "bytes": 323187,
+      "sha256": "0a61bca6839f37ebebd89021474821abfd908d2b50867f221e3504db4d84a06a",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/castor.dae",
+      "compressed_bytes": 75867,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/castor_joint.dae",
+      "bytes": 543388,
+      "sha256": "901cad2da533c8fd0f3e3ce25a4d5b5d1c689d5f852640cd7dab041dc647d629",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/castor_joint.dae",
+      "compressed_bytes": 143176,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/d435.dae",
+      "bytes": 42224725,
+      "sha256": "552a84a19ffbce76329911860095f1b16e5f837cc4228d35d6481b178a721f8e",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/d435.dae",
+      "compressed_bytes": 9567687,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link1.STL",
+      "bytes": 122284,
+      "sha256": "079a59fd0a94237c5042d6c7542b79bdc4c8db396758fdb7860f7b464e3c25ed",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link1.STL",
+      "compressed_bytes": 28322,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link1.dae",
+      "bytes": 141347,
+      "sha256": "49480bb69e5daffdd9092b33d9af6c6b3e6b9a069419e3e76fb9947e3e1753f9",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link1.dae",
+      "compressed_bytes": 37647,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link2.STL",
+      "bytes": 1212884,
+      "sha256": "87e1386ed2533e68743f50f448e8cbdc366c2b37f0df3ede1fa2de340666786c",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link2.STL",
+      "compressed_bytes": 312892,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link2.dae",
+      "bytes": 1529979,
+      "sha256": "9bb90c7a6c6d9bfab562349bf647f833433d71f2804a7981eba775f31e78723d",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link2.dae",
+      "compressed_bytes": 368117,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link3.STL",
+      "bytes": 1290084,
+      "sha256": "76ded14e5f919e7a77ae7501883d55fb349be5c3c16499f59c1de5b552cad842",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link3.STL",
+      "compressed_bytes": 356170,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link3.dae",
+      "bytes": 1620958,
+      "sha256": "1eabf99eb30c6cc9bf7c61bf650102fd22d35ac2ce67f36e42d700e3e2442318",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link3.dae",
+      "compressed_bytes": 401826,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link4.STL",
+      "bytes": 207984,
+      "sha256": "d234f4b96822ecf8a2f62219031053f7950d685faa15b4d23f8115c1b434cbbd",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link4.STL",
+      "compressed_bytes": 50749,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link4.dae",
+      "bytes": 249774,
+      "sha256": "3b50cf11a5271fe34aca0c186e623137875fd02c764cb7238c20b898f175f150",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link4.dae",
+      "compressed_bytes": 62434,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link5.STL",
+      "bytes": 467884,
+      "sha256": "dc58ea92599295aaa980e090a034c68397e505b79b681a223cd98ba7f10bab03",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link5.STL",
+      "compressed_bytes": 129202,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link5.dae",
+      "bytes": 568590,
+      "sha256": "c8a96bc00fa9c67723d0a2626bfd015b00a872d7be1588b61f0ae002dd189b13",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link5.dae",
+      "compressed_bytes": 144342,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link6.STL",
+      "bytes": 467084,
+      "sha256": "ffb2de0357066957db00fd7599dd4a7fbc147c8ef5916a492aa9070fdbdf5740",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link6.STL",
+      "compressed_bytes": 109015,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link6.dae",
+      "bytes": 562991,
+      "sha256": "e0c0f316065921fdab8704e5301baaa2b8c50867846a19c489393bc4ab83cbfa",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link6.dae",
+      "compressed_bytes": 129246,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link7.STL",
+      "bytes": 65284,
+      "sha256": "ec3d40b39cccde0075ca3d16603f14f180fce41a46b446473d384def7a1b0be0",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link7.STL",
+      "compressed_bytes": 13352,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link7.dae",
+      "bytes": 77172,
+      "sha256": "cf87ef550d6ab5d71058e7da63ba6ac4c492a9385b3ca0eed37eee0fd0cab97e",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link7.dae",
+      "compressed_bytes": 18402,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link8.STL",
+      "bytes": 65284,
+      "sha256": "29f7a8379cad81797e82e4ba099455cc275ac6ac5bb9e264ce46719fd7d2bb60",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link8.STL",
+      "compressed_bytes": 13123,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link8.dae",
+      "bytes": 77778,
+      "sha256": "e58e8cbc674bb7465ec81a2db6c4b1d08ccf1d63352e245739aa6418d62b0fd7",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/link8.dae",
+      "compressed_bytes": 18081,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_base_link.dae",
+      "bytes": 21933502,
+      "sha256": "53c27a6f52d019e02f93748e463448e0c5173d256a9a5772a1b7267047d15c08",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_base_link.dae",
+      "compressed_bytes": 5900286,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_wheel.dae",
+      "bytes": 937442,
+      "sha256": "42784402bca05e9f406f4e08d8ea1cc7ff57db9fee0e0b0b557670d0ee1d10c1",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/tracer_wheel.dae",
+      "compressed_bytes": 285080,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/BrushedAluminum_BaseColor.jpg",
+      "bytes": 49497,
+      "sha256": "10c220f63daf3f9be7bb0cac60a9584aec1090aa9949e280a5d7feb7519e1089",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/BrushedAluminum_BaseColor.jpg",
+      "compressed_bytes": 445,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_0.png",
+      "bytes": 263,
+      "sha256": "68be90aadacc218aa9ac4c2c4dd9dcda39e5a7b30c791ccfafce2c86fd6c1b0a",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_0.png",
+      "compressed_bytes": 160,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_269.png",
+      "bytes": 250,
+      "sha256": "372012c8cb6982b9a7ee254beb825aab80af143a832f664eaecf69fdbd9987e6",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_269.png",
+      "compressed_bytes": 143,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_290.png",
+      "bytes": 245,
+      "sha256": "6c6a1150da771c04ede783ae05194b2d8359292196809fff137e76f31a5bf974",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_290.png",
+      "compressed_bytes": 140,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_442.png",
+      "bytes": 243,
+      "sha256": "c7592ae2330254399b5dde4920302a5fe36468315e44ac496d1abdf8c97d913f",
+      "archive_member": "embodiments/aloha-agilex/urdf/aloha_maniskill_sim/meshes/Image_442.png",
+      "compressed_bytes": 138,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/embodiments.zip"
+    },
+    {
+      "path": "assets/objects/001_bottle/visual/base13.glb",
+      "bytes": 2062028,
+      "sha256": "bcf7da24d20a2d2b4b79ca6b7bf9de175ea649d53461dc820d857437df116cb7",
+      "archive_member": "objects/001_bottle/visual/base13.glb",
+      "compressed_bytes": 1965208,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+    },
+    {
+      "path": "assets/objects/001_bottle/collision/base13.glb",
+      "bytes": 288896,
+      "sha256": "3e661138f5dfbcda201766d181525c8e6e2cce26400df95829eb2772fed1a9e8",
+      "archive_member": "objects/001_bottle/collision/base13.glb",
+      "compressed_bytes": 92933,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+    },
+    {
+      "path": "assets/objects/001_bottle/model_data13.json",
+      "bytes": 7702,
+      "sha256": "a0b94d276bf41e03a7b0c2fa7f8352c8c45b7bcaa8db2925328955fc8e18ef1f",
+      "archive_member": "objects/001_bottle/model_data13.json",
+      "compressed_bytes": 726,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+    },
+    {
+      "path": "assets/objects/001_bottle/visual/base16.glb",
+      "bytes": 9744076,
+      "sha256": "8eec8d9b896accd7287a9756361a8ce3d7f58d55549fc4f579053840131b31b9",
+      "archive_member": "objects/001_bottle/visual/base16.glb",
+      "compressed_bytes": 8900280,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+    },
+    {
+      "path": "assets/objects/001_bottle/collision/base16.glb",
+      "bytes": 274068,
+      "sha256": "c12854c92cc00c014210940effdcbbf57c30a425e6646e9c3e080c26be89cda9",
+      "archive_member": "objects/001_bottle/collision/base16.glb",
+      "compressed_bytes": 88226,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+    },
+    {
+      "path": "assets/objects/001_bottle/model_data16.json",
+      "bytes": 7704,
+      "sha256": "1c7fa677c6879c2ff3b31b0bb1e433330a9ca427a32dca5e20e6bd44680885c4",
+      "archive_member": "objects/001_bottle/model_data16.json",
+      "compressed_bytes": 718,
+      "source": "https://hf-mirror.com/datasets/TianxingChen/RoboTwin2.0/resolve/3dc3b798668feb99ac61cc9086d84cbcc3d79186/objects.zip"
+    },
+    {
+      "path": "task_config/demo_clean.yml",
+      "bytes": 873,
+      "source": "https://raw.githubusercontent.com/RoboTwin-Platform/RoboTwin/c3ddfa8b97d5519efa828b075999bd0006778e5e/task_config/demo_clean.yml",
+      "sha256": "8ee5d0d07daecf7599b8d89b44776b700c7c60da24cd6317e176e6798d8cb11e",
+      "compressed_bytes": 873
+    },
+    {
+      "path": "task_config/_camera_config.yml",
+      "bytes": 154,
+      "source": "https://raw.githubusercontent.com/RoboTwin-Platform/RoboTwin/c3ddfa8b97d5519efa828b075999bd0006778e5e/task_config/_camera_config.yml",
+      "sha256": "dc80a40552e0fad25d58cf0141302ceba66d22409b5091bed235ad2f10cbce7f",
+      "compressed_bytes": 154
+    }
+  ],
+  "elapsed_s": 25.419709663838148,
+  "raw_bytes": 392706510,
+  "compressed_member_bytes": 90827619
+}

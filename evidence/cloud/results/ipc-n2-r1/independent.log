@@ -1,0 +1,5 @@
+/root/autodl-tmp/roboscope-central-render-20261111/site/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/autodl-tmp/roboscope-central-render-20261111/site/sapien/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+{"status": "complete", "aggregate": {"elapsed_s": 12.217184871435165, "images": 800, "observations": 200, "images_per_s": 65.4815334644292, "latency": {"count": 200, "mean_s": 0.1206270743533969, "p50_s": 0.11413799412548542, "p95_s": 0.123125821352005}}, "error": null}
